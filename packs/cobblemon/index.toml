@@ -41,8 +41,23 @@ hash = "de7bb9eecb68ac760a184374d6c59f24fa905ab11983a0f92b65113ad9d54c9a"
 metafile = true
 
 [[files]]
+file = "mods/catch-indicator.pw.toml"
+hash = "0b3f5077664c6c6a37f2f8b511c7d5f69afad78c707803a9ace94b0fbddab1e1"
+metafile = true
+
+[[files]]
+file = "mods/catch-rate-display.pw.toml"
+hash = "aab58784abf7244373810eff5b06a8f870cbdc9c951fa6afaed0e2015291263f"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
+metafile = true
+
+[[files]]
+file = "mods/cobble-caf-forms.pw.toml"
+hash = "00ba94864c4823cc542c6006b0cb14762ebbe872a9aed5d072d5dca5364dc46c"
 metafile = true
 
 [[files]]
@@ -53,6 +68,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
 hash = "18db278b07d9ce9b6c259564e29669d2077dd3799bedb58867c87c0c05698f20"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-counter.pw.toml"
+hash = "f17cd5fa7df5aa2c2e17db7356e8bc06d69dfc0d1a4e62863f317950455484e9"
 metafile = true
 
 [[files]]
@@ -68,6 +88,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "ee057daa85d289dc2a860fcb7108d19d4b355235348498de63892daa262ec277"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-playerxp.pw.toml"
+hash = "134eacb2b41d2e13e0cd80179881b368a437b5927894558103c4a0e475200615"
 metafile = true
 
 [[files]]
@@ -88,6 +113,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-safepastures.pw.toml"
 hash = "2e8c06d87280fb0004e295a6c4988540f8fb548d425ec2e9f177213da75802d2"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-smartphone.pw.toml"
+hash = "91986edc20151860aeca66b7c9dc01fb226ad71392d6f02ffc639b8d315b3190"
 metafile = true
 
 [[files]]
@@ -118,6 +148,11 @@ metafile = true
 [[files]]
 file = "mods/cobblesafari.pw.toml"
 hash = "5a3b933cc7c4cb1b60e33779f2cff7583475e7c7b1eba023bf43739ab336cdd1"
+metafile = true
+
+[[files]]
+file = "mods/cobblethemes.pw.toml"
+hash = "7af8b7876f9e730eb2da137c6f2e85739dfbf69a706dca95b991c68dac3ca742"
 metafile = true
 
 [[files]]
@@ -193,6 +228,11 @@ metafile = true
 [[files]]
 file = "mods/mobsbegone.pw.toml"
 hash = "07dead0c8e36d9604c611c2c8d4f0c99f85410dfa0daf6f9a779747d9a6b86af"
+metafile = true
+
+[[files]]
+file = "mods/navas-zamega.pw.toml"
+hash = "c55a705b886cfec789b438e41357f0aae83a7987b70364661ee3563530571fdf"
 metafile = true
 
 [[files]]

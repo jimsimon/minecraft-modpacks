@@ -36,6 +36,14 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Pokeblocks | Placeable Pokémon dolls/plushies (pulls GeckoLib) |
 | CobbleFurnies | Cobblemon-themed furniture: Poké Ball chairs, PC-style desks and more (pulls Resourceful Lib) |
 | Handcrafted | General furniture: tables, chairs, benches, shelves, kitchen blocks |
+| Nava's ZA Megas | All Pokémon Legends: Z-A Megas on top of Mega Showdown; 1.8 build |
+| Cobble Café Forms | Café ReMix outfits/costumes for Pokémon; 1.8 build |
+| Cobblemon Smartphone | In-game phone for party/PC/Pokédex shortcuts; 1.8 patch |
+| Cobblemon Counter | KO/capture streaks per species (shiny chaining); 1.8.1 build |
+| Cobblemon PlayerXP | Players earn Minecraft XP from battles |
+| Catch Indicator | Unseen/seen/caught icon on wild Pokémon; requires 1.8 (client-side only) |
+| Catch Rate Display | Live catch percentage per ball in battle; 1.8.1 (client-side only) |
+| Cobblethemes | Battle music themes incl. per-Pokémon tracks (client-side only) |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
 
