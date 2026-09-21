@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Verify that every Fabric mod's declared dependencies are present on the
-side(s) it is installed on.
+side(s) it is installed on, and that no two mods on a side share a mixin
+config file name (Fabric Loader refuses to launch in that case).
 
     scripts/check-deps.py packs/<pack> [--cache DIR]
 
@@ -39,7 +40,8 @@ def read_mod(zf):
     dep = fm.get("depends") or {}
     if isinstance(dep, list):
         dep = {d: "*" for d in dep}
-    out.append((fm["id"], fm.get("provides") or [], dep, fm.get("environment", "*")))
+    mixins = [m if isinstance(m, str) else m.get("config") for m in (fm.get("mixins") or [])]
+    out.append((fm["id"], fm.get("provides") or [], dep, fm.get("environment", "*"), mixins))
     for j in fm.get("jars") or []:
         try:
             out += read_mod(zipfile.ZipFile(io.BytesIO(zf.read(j["file"]))))
@@ -68,18 +70,30 @@ def main():
         have = set(BUILTIN)
         for side, entries in mods.values():
             if side in sides:
-                for mid, prov, _, _ in entries:
+                for mid, prov, _, _, _ in entries:
                     have.add(mid); have.update(prov)
         print(f"== {label}: {len(have)} mod ids present")
         for slug, (side, entries) in sorted(mods.items()):
             if side not in sides or not entries:
                 continue
-            mid, _, dep, _ = entries[0]
+            mid, _, dep, _, _ = entries[0]
             missing = [d for d in dep if d not in have]
             if missing:
                 bad += 1
                 print(f"   MISSING on {label}: {slug} ({mid}, side={side}) needs {missing}")
-    print("OK: no missing dependencies" if not bad else f"{bad} problem(s)")
+        # Fabric Loader requires mixin config file names to be unique across all
+        # loaded mods; two mods shipping e.g. "mixins.json" crash at launch.
+        seen = {}
+        for slug, (side, entries) in sorted(mods.items()):
+            if side not in sides:
+                continue
+            for mid, _, _, _, mixins in entries:
+                for cfg in mixins:
+                    if cfg in seen and seen[cfg] != mid:
+                        bad += 1
+                        print(f"   DUPLICATE mixin config on {label}: {cfg} used by {seen[cfg]} and {mid}")
+                    seen.setdefault(cfg, mid)
+    print("OK: no missing dependencies or mixin clashes" if not bad else f"{bad} problem(s)")
     return 1 if bad else 0
 
 if __name__ == "__main__":

@@ -202,11 +202,6 @@ hash = "5a3b933cc7c4cb1b60e33779f2cff7583475e7c7b1eba023bf43739ab336cdd1"
 metafile = true
 
 [[files]]
-file = "mods/cobblethemes.pw.toml"
-hash = "7af8b7876f9e730eb2da137c6f2e85739dfbf69a706dca95b991c68dac3ca742"
-metafile = true
-
-[[files]]
 file = "mods/cobbreeding.pw.toml"
 hash = "8f472ad517afe778fa8afbc7d84bad9f69e0e4ff9e83d2d2fca57b006d242b4c"
 metafile = true

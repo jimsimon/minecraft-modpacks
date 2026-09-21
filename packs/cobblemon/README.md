@@ -45,7 +45,6 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Cobblemon PlayerXP | Players earn Minecraft XP from battles |
 | Catch Indicator | Unseen/seen/caught icon on wild Pokémon; requires 1.8 (client-side only) |
 | Catch Rate Display | Live catch percentage per ball in battle; 1.8.1 (client-side only) |
-| Cobblethemes | Battle music themes incl. per-Pokémon tracks (client-side only) |
 | Ok Zoomer | Zoom key (default C) with scroll-to-adjust; chosen over Zoomify, which crashes on Steam Deck (client-side only) |
 | Xaero's Minimap | Corner minimap with waypoints and entity radar (client-side only) |
 | Xaero's World Map | Full-screen explored-world map, shares waypoints with the minimap (client-side only) |
@@ -109,6 +108,10 @@ the `default` group needs nothing unless you want to restrict them.
 
 - **Fight or Flight Reborn** (wild Pokémon attack outside battle): works on
   1.8 per its author but deliberately left out.
+- **Cobblethemes** (battle music): removed in 1.21.0. Its mixin config is named
+  plain `mixins.json`, the same as PlayerXP's, and Fabric Loader refuses to
+  launch a client with two mods sharing that name. It is an unmaintained
+  pre-1.8 beta, so PlayerXP stays. `scripts/check-deps.py` now flags this.
 - **Fusion alternative**: `starlightfusion` adds bespoke fusion models
   (Sylvevoir and friends) rather than configurable recipes; it is
   client-required and its Cobblemon 1.8 status is unstated.
@@ -121,7 +124,7 @@ Modrinth metadata is not always right: Athena is listed client-only but
 CobbleFurnies needs it on the server, and Ultra Wormholes does not declare Wild
 Battle API at all. Before tagging, download every jar and compare each mod's
 `fabric.mod.json` `depends` (including nested jars) against the mod ids present
-on each side. `scripts/check-deps.py` does this for a pack directory.
+on each side. `scripts/check-deps.py` does this for a pack directory, and also rejects duplicate mixin config names.
 
 ## Candidates not yet included
 
