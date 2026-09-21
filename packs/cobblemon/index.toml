@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/controlify/server.json"
+hash = "33ebff5c8e81406aa5c63349ddac97175580d043ad2f2e852c3c413fec6e72ac"
+
+[[files]]
 file = "config/global_packs.toml"
 hash = "1d42af4a01d0493c9f869fc029654e6c603f0d9b6a66782873bebd7ee52f6717"
 
@@ -167,7 +171,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "f9237a04f1fc3b9b57cfb74fbd8ac64f6a5ce0fc9428ba5e174231dc0abf0a21"
+hash = "248d0f3fbee027be6ce7da52defd26b9adfcf55c5a0c25806978a04a20e99408"
 metafile = true
 
 [[files]]
