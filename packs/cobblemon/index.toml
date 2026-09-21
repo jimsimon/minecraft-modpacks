@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "addons-client/e19_cobblemon_minimap_icons.pw.toml"
+hash = "224356816f38b00457a54268435fc051f03b8f649cf9df099c676e5641f9b57f"
+metafile = true
+
+[[files]]
 file = "addons/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "12dd7db62356a0b9cf97a7d6303005439bc571de723e7f605ed82b1ca3b44a43"
 metafile = true
@@ -11,7 +16,7 @@ hash = "33ebff5c8e81406aa5c63349ddac97175580d043ad2f2e852c3c413fec6e72ac"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "743d654c7858c35a7f1152e2dfe2bfaa1ecc81b42b05c230c56443a75921dec4"
+hash = "c2c8250db5aa6a492dc6297b1afa6c844511b96284484226cffbe4889ad92a86"
 
 [[files]]
 file = "config/mobsbegone-blacklist.json"
@@ -424,11 +429,6 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "af20070dd9497817a83162c17b181a0a44f7213ea302d059a81c5aed02d0c877"
-metafile = true
-
-[[files]]
-file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
-hash = "224356816f38b00457a54268435fc051f03b8f649cf9df099c676e5641f9b57f"
 metafile = true
 
 [[files]]

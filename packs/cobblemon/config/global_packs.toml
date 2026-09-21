@@ -4,12 +4,14 @@
 #   datapacks/  - server-side gameplay datapacks (no-hunger, keep-inventory)
 #   addons/     - combined data+resource packs (AllTheMons x Mega Showdown);
 #                 loaded as datapacks on the server and as resource packs on clients
+#   addons-client/ - client-only resource packs (E19 minimap icons); force-enabled
+#                 on clients, never shipped to the server
 config_version = 4
 enable_system_global_packs = false
 log_pack_ids = false
 
 [resourcepacks]
-	required = ["addons/"]
+	required = ["addons/", "addons-client/"]
 	enable_builtin = []
 
 [datapacks]
