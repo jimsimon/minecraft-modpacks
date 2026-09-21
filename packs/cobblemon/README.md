@@ -73,6 +73,23 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 
 Requires Java 21 (Cobblemon refuses 25).
 
+## Client requirements
+
+| | PC | Steam Deck |
+|---|---|---|
+| Max memory (`-Xmx`) | 8 GB | 6 GB |
+| Shaders | optional | leave off, or Complementary Reimagined on Low |
+| Distant Horizons | on | on, lower its render distance if frames drop |
+
+The `.mrpack` format cannot carry launcher settings, so set memory yourself:
+
+- **Prism Launcher**: Settings → Java → *Maximum memory allocation* sets the
+  default for new instances; per instance it is Edit → Settings → Java →
+  Memory. Launchers default to 4 GB, which is too little for this pack.
+- **Modrinth App**: Settings → Java and memory, or per instance under the
+  instance's Options.
+
+
 **Worldgen note.** Terralith and Tectonic only affect chunks generated after
 they are installed. A world created before pack 1.6.0 keeps vanilla terrain in
 explored chunks with hard seams at the edge of new generation; regenerate the

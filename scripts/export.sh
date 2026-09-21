@@ -68,5 +68,10 @@ notes="$root/dist/$pack-$version.notes.md"
   done
   echo
   echo "Server install: \`--modrinth https://github.com/jimsimon/minecraft-modpacks/releases/download/$pack-v$version/$pack-$version.mrpack\`"
+  # Optional per-pack notes (client memory, setup steps) appended verbatim.
+  if [ -f RELEASE_NOTES.md ]; then
+    echo
+    cat RELEASE_NOTES.md
+  fi
 } > "$notes"
 echo "wrote $notes"

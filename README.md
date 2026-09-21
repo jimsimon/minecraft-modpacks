@@ -12,6 +12,7 @@ packs/
     ├── index.toml        # hashes of every file below (maintained by packwiz)
     ├── mods/*.pw.toml    # one file per mod: Modrinth project, pinned version, hash
     ├── config/…          # optional: any other file here ships as a pack override
+    ├── RELEASE_NOTES.md  # optional; appended to every GitHub Release's notes
     └── .packwizignore    # files to keep out of the pack (README.md, notes)
 ```
 
