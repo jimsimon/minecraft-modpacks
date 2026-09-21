@@ -23,6 +23,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Simple Voice Chat | Proximity voice; each server needs its own UDP port in the 24454-24470 range |
 | Terralith | Overworld biome overhaul using vanilla blocks; Cobblemon's spawn data targets its biomes. Same worldgen Cobbleverse uses |
 | Tectonic | Larger-scale terrain: taller mountains, deeper valleys and caves; layers on top of Terralith |
+| Cobblemon Towns & Structures | Eight Kanto cities (Pewter, Cerulean, Vermilion, Celadon, Fuchsia, Saffron, Cinnabar, Viridian) with gyms, Poké Marts, Poké Centers, the Pewter museum, Celadon game corner and a Rocket hideout; a datapack in `datapacks/` (server-side) plus its NPC skin pack in `addons-client/`. Only generates in new chunks |
 | Radical Cobblemon Trainers | 1,500+ NPC trainers roaming the world (Radical Red, Unbound, BDSP); requires Cobblemon 1.8 since 0.19.0 (pulls RCT API, Forge Config API Port) |
 | Cobbreeding | Pokémon breeding through pastures; 2.3.0 is the Cobblemon 1.8 build (pulls Cloth Config) |
 | Cobblemon Capture XP | Team gains XP on capture; 1.8.1 build (pulls Tim Core; server-side only) |
@@ -95,6 +96,29 @@ The `.mrpack` format cannot carry launcher settings, so set memory yourself:
 they are installed. A world created before pack 1.6.0 keeps vanilla terrain in
 explored chunks with hard seams at the edge of new generation; regenerate the
 world (delete `world/` while the server is stopped) for a clean result.
+
+## Radical Trainers settings
+
+Forge Config API Port stores server configs per world, so the pack ships
+`rctmod-server.toml` twice: `world/serverconfig/` for the existing world (assumes
+`level-name=world`) and `defaultconfigs/` as the template for new worlds. Both
+are pack-managed; edit them in the repo, not on the server.
+
+| Setting | Mod default | Pack |
+|---|---|---|
+| `globalSpawnChance` | 0.85 | 0.5 |
+| `spawnIntervalTicks` | 180 | 600 |
+| `maxTrainersPerPlayer` | 12 | 4 |
+| `maxTrainersTotal` | 60 | 24 |
+| `forceBattleOnSight` | true | false (right-click a trainer to battle) |
+| `initialLevelCap` | 15 | 100 |
+| `allowOverLeveling` | false | true |
+| `initialSeries` | empty | freeroam |
+| `freeroamRequiresCompletedSeries` | true | false |
+
+Net effect: about a fifth of the trainers, no ambushes, and no level cap or
+story gating. Players who joined before this config keep their series state,
+but the cap no longer applies to anyone.
 
 ## Default keybinds
 

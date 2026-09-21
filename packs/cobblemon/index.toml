@@ -1,6 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "addons-client/cobblemon-towns-structures-npcs.pw.toml"
+hash = "8f6fa13dd7e2cee50adace7f1083e5a5490928e16fe344e8ac882a19f3beb249"
+metafile = true
+
+[[files]]
+file = "addons-client/cobblemon.pw.toml"
+hash = "4ee82c782d240cf3bce3c939203ddc4f331e80c1f8e499208370f53bbc9ba6f3"
+metafile = true
+
+[[files]]
 file = "addons-client/e19-cobblemon-minimap-icons.pw.toml"
 hash = "1abb9166c5cf2b048bb81fd3f8856e6ac29baa29e4eb43b355499f709b1ce470"
 metafile = true
@@ -51,6 +61,11 @@ file = "config/starterkit/kits/Default.txt"
 hash = "23e47b76de9e23952a5c8452281673bd9df5498b6a7fff70b9c1e4524a66457e"
 
 [[files]]
+file = "datapacks/cobblemon-towns-structures-structures.pw.toml"
+hash = "a816905367bd94a17c02bc837254e398a80dd4e1bec50f4210e3d68c6ea60ca3"
+metafile = true
+
+[[files]]
 file = "datapacks/keep-inventory/data/keep_inventory/function/load.mcfunction"
 hash = "4bd15c4f1ff1bf64f54304721ca51db5384d2b10b450863d1b502a6eabc27d14"
 
@@ -73,6 +88,10 @@ hash = "23fee2127e8839e52f0435941869365aa0469ecc61937657a58a86f99e3bccf7"
 [[files]]
 file = "datapacks/no-hunger/pack.mcmeta"
 hash = "a221daec525012a2aa289bafa8f4ac233677cf8a1ec219dc4a3cd8a2bef0b8be"
+
+[[files]]
+file = "defaultconfigs/rctmod-server.toml"
+hash = "bcdb62c04038e7df0316ec984018c28d6c1ae1f9b069d716e7d9e4eb14a7ed9e"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -533,3 +552,7 @@ metafile = true
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
 metafile = true
+
+[[files]]
+file = "world/serverconfig/rctmod-server.toml"
+hash = "bcdb62c04038e7df0316ec984018c28d6c1ae1f9b069d716e7d9e4eb14a7ed9e"

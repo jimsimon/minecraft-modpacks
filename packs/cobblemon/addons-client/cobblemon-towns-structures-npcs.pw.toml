@@ -1,0 +1,13 @@
+name = "Cobblemon Towns & Structures"
+filename = "cobblemon-towns-structures-npc-1001.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IqCPvv9e/versions/j2v7B0LD/cobblemon-towns-structures-npc-1001.zip"
+hash-format = "sha512"
+hash = "9bbf33583f8b7a30fc3f539f29b97382a1856f807a806d1839fb76672e15dbf330bda437ca019ff1f841029589b75d0a2c6c3aa1bdcb7a66cf1acb7ee391c7c6"
+
+[update]
+[update.modrinth]
+mod-id = "IqCPvv9e"
+version = "j2v7B0LD"
