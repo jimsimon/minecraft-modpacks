@@ -15,12 +15,28 @@ file = "config/controlify/server.json"
 hash = "33ebff5c8e81406aa5c63349ddac97175580d043ad2f2e852c3c413fec6e72ac"
 
 [[files]]
+file = "config/defaultoptions/extra/config/xaerominimap.txt"
+hash = "fa041076820d9f0265525fccc85ee89ac8b34ab37f427e39f67151a23c9628bc"
+
+[[files]]
+file = "config/defaultoptions/extra/config/xaerominimap_entities.json"
+hash = "2cdc1d6c2ee8dcd572f3556bc2967fd3a81662d6c0ab3cc8d65f7f42e2c7e77a"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "845b87a1119ec110c70f93af1725362ab3434d7d1fc3e08841ac2a6e9149960b"
+
+[[files]]
 file = "config/global_packs.toml"
 hash = "c2c8250db5aa6a492dc6297b1afa6c844511b96284484226cffbe4889ad92a86"
 
 [[files]]
 file = "config/mobsbegone-blacklist.json"
 hash = "10774f46f18b2f0ed79423069651003ed8a627c930796ccee41a5cc9da5fe2f9"
+
+[[files]]
+file = "config/starterkit/kits/Default.txt"
+hash = "8e2d64d29be2367e8f0437c9ea16db51bb208020069ffaecac20aa019069a730"
 
 [[files]]
 file = "datapacks/keep-inventory/data/keep_inventory/function/load.mcfunction"
@@ -219,6 +235,11 @@ metafile = true
 [[files]]
 file = "mods/controlify.pw.toml"
 hash = "248d0f3fbee027be6ce7da52defd26b9adfcf55c5a0c25806978a04a20e99408"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "dd17d79aae1c76edd58a5c8e51951da43acd431872a9c7c8fde82f327f0865a4"
 metafile = true
 
 [[files]]

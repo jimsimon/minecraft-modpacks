@@ -1,0 +1,3 @@
+entityRadar:true
+radarHideInvisibleEntities:true
+mainEntityAs:0

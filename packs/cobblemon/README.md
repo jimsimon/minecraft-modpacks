@@ -15,7 +15,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | CobbleSafari | Safari Zone dimension; 0.3.5 is the Cobblemon 1.8 build |
 | Cobblemon Economy | PokéDollars and shops |
 | Cobblemon GTS | Global trade station (server-side only) |
-| Starter Kit | Configurable gear/items for players on first join (`config/starterkit/`); pulls Collective |
+| Starter Kit | First-join kit defined in `config/starterkit/kits/Default.txt`: 64 Poké Balls, 64 torches, Rotom Phone (CobbleSafari), Poké Rod, PokéNav, Pokédex; pulls Collective |
 | Cobblemon Poke Fusion | Fuse two or three Pokémon into a configured result; author states Cobblemon 1.7+/1.8 support |
 | Cobblemon: Pokedex Rewards | Rewards for Pokédex milestones via chest menus; built for Cobblemon 1.8.1 (server-side only) |
 | Fabric Essentials | `/home`, `/sethome`, `/tpa`, `/tpaccept`, `/back`, `/warp`, `/spawn` and more (server-side only) |
@@ -49,6 +49,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Xaero's Minimap | Corner minimap with waypoints and entity radar (client-side only) |
 | Xaero's World Map | Full-screen explored-world map, shares waypoints with the minimap (client-side only) |
 | E19 Cobblemon Minimap Icons (resource pack) | Pokémon head icons on Xaero's minimap/world map instead of generic dots. Lives in `addons-client/`, which Global Packs force-enables on clients, so no manual step (client-side only) |
+| Default Options | Ships default keybinds (`config/defaultoptions/keybindings.txt`) and first-run configs (`config/defaultoptions/extra/`) without overwriting player changes on updates (client-side only) |
 | Controlify | Controller / Steam Deck support with in-game button prompts and a virtual cursor for menus (pulls YACL). Also installed server-side so clients get analogue stick movement without a whitelist prompt and Bedrock-style reach-around placement; policies in `config/controlify/server.json` |
 | Sodium, ImmediatelyFast, Entity Culling, ModernFix, Dynamic FPS | Client performance; the set the Steam Deck needs (client-side only) |
 | FerriteCore | Lower memory use for block states (both sides) |
@@ -94,6 +95,31 @@ The `.mrpack` format cannot carry launcher settings, so set memory yourself:
 they are installed. A world created before pack 1.6.0 keeps vanilla terrain in
 explored chunks with hard seams at the edge of new generation; regenerate the
 world (delete `world/` while the server is stopped) for a clean result.
+
+## Default keybinds
+
+Several mods ship the same default keys (B was Emotecraft, Traveler's Backpack,
+Tom's Storage and Xaero's new-waypoint at once). `config/defaultoptions/keybindings.txt`
+resolves the clashes; Default Options applies it as the *default*, so players can
+still rebind. Cobblemon's debug portrait keys are unbound.
+
+| Key | Action |
+|---|---|
+| M / R / N / O | Cobblemon summary / throw Pokémon / PokéNavigator / hide party |
+| V, G, . | Voice chat menu, group, mute mic (push-to-talk: Caps Lock) |
+| K | Iris shader toggle |
+| P, ; | Smartphone open, scanner |
+| C | Zoom |
+| X | Emotes |
+| B | Backpack |
+| Y | Storage terminal |
+| H | Accessories |
+| I, U, Z, J, `,`, keypad + | Xaero minimap settings, waypoints, enlarge, world map, new waypoint, instant waypoint |
+| F6 / F7 | Raid accept / deny |
+| Mouse 5 | Ping |
+
+The minimap radar defaults come from `config/defaultoptions/extra/config/`
+(entity radar on, every category displayed with icons, so Pokémon show up).
 
 ## Permissions
 
