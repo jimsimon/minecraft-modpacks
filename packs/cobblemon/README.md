@@ -44,6 +44,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Catch Indicator | Unseen/seen/caught icon on wild Pokémon; requires 1.8 (client-side only) |
 | Catch Rate Display | Live catch percentage per ball in battle; 1.8.1 (client-side only) |
 | Cobblethemes | Battle music themes incl. per-Pokémon tracks (client-side only) |
+| Controlify | Controller / Steam Deck support with in-game button prompts and a virtual cursor for menus (client-side only; pulls YACL) |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
 
