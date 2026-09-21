@@ -11,7 +11,7 @@
 '5' : '{count:1,id:"cobblemon:pokedex_red"}',
 '6' : '{count:1,id:"minecraft:diamond_pickaxe"}',
 '7' : '{count:1,id:"minecraft:diamond_axe"}',
-'8' : '',
+'8' : '{count:1,id:"travelersbackpack:netherite",components:{"travelersbackpack:tier":4}}',
 '9' : '',
 '10' : '',
 '11' : '',

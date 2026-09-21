@@ -15,7 +15,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | CobbleSafari | Safari Zone dimension; 0.3.5 is the Cobblemon 1.8 build |
 | Cobblemon Economy | PokéDollars and shops |
 | Cobblemon GTS | Global trade station (server-side only) |
-| Starter Kit | First-join kit defined in `config/starterkit/kits/Default.txt`: 64 Poké Balls, 64 torches, Rotom Phone (CobbleSafari), Poké Rod, PokéNav, Pokédex, diamond pickaxe and axe; pulls Collective |
+| Starter Kit | First-join kit defined in `config/starterkit/kits/Default.txt`: 64 Poké Balls, 64 torches, Rotom Phone (CobbleSafari), Poké Rod, PokéNav, Pokédex, diamond pickaxe and axe, netherite-tier Traveler's Backpack; pulls Collective |
 | Cobblemon Poke Fusion | Fuse two or three Pokémon into a configured result; author states Cobblemon 1.7+/1.8 support |
 | Cobblemon: Pokedex Rewards | Rewards for Pokédex milestones via chest menus; built for Cobblemon 1.8.1 (server-side only) |
 | Fabric Essentials | `/home`, `/sethome`, `/tpa`, `/tpaccept`, `/back`, `/warp`, `/spawn` and more (server-side only) |
