@@ -1,0 +1,6 @@
+# Shipped by the modpack. Full access. Add a player with:
+#   lp user <name> parent set admin
+name: admin
+permissions:
+- '*':
+    value: true

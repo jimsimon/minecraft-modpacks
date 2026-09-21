@@ -1,0 +1,29 @@
+# Shipped by the modpack (packs/cobblemon/config/luckperms). Every player is in
+# this group. Pack updates overwrite this file; put server-specific extras in a
+# separate group or on the user instead.
+name: default
+permissions:
+- cobblemon.command.pc:
+    value: true
+- fabric-essentials.command.home:
+    value: true
+- fabric-essentials.command.sethome:
+    value: true
+- fabric-essentials.command.deletehome:
+    value: true
+- fabric-essentials.command.homes:
+    value: true
+- fabric-essentials.command.warp:
+    value: true
+- fabric-essentials.command.warps:
+    value: true
+- fabric-essentials.command.tpa:
+    value: true
+- fabric-essentials.command.tpahere:
+    value: true
+- fabric-essentials.command.tpaccept:
+    value: true
+- fabric-essentials.command.tpdeny:
+    value: true
+- fabric-essentials.command.back:
+    value: true

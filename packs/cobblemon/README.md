@@ -123,23 +123,28 @@ The minimap radar defaults come from `config/defaultoptions/extra/config/`
 
 ## Permissions
 
-LuckPerms stores its data in `config/luckperms/` (H2 by default; part of the
-server backup). Bootstrap from the Crafty console, where commands run as the
-server operator:
+LuckPerms runs with YAML storage (`config/luckperms/luckperms.conf`) so the
+groups ship with the pack in `config/luckperms/yaml-storage/groups/`:
+
+- `default` (everyone): `/pc`, and Fabric Essentials' `/home`, `/sethome`,
+  `/delhome`, `/homes`, `/warp`, `/warps`, `/tpa`, `/tpahere`, `/tpaccept`,
+  `/tpdeny`, `/back`. `/setwarp` and `/delwarp` stay admin-only.
+- `admin`: everything (`*`).
+
+Make someone an admin from the Crafty console:
 
 ```text
-lp creategroup admin
-lp group admin permission set fabric-essentials.* true
-lp group admin permission set cobblemon.* true
-lp group admin permission set minecraft.command.* true
-lp user <player> parent set admin
+lp user <name> parent set admin
 ```
 
-Fabric Essentials permission nodes follow `fabric-essentials.command.<name>`;
-the full list is in its
-[COMMANDS.md](https://github.com/DrexHD/FabricEssentials/blob/main/COMMANDS.md).
-Player commands such as home and tpa are allowed for everyone by default, so
-the `default` group needs nothing unless you want to restrict them.
+User assignments are written to `yaml-storage/users/` on the server and are not
+part of the pack. The group files are pack-managed, so edits made with `lp group
+default …` are reverted on the next pack update; change them in the repo.
+
+If the server previously ran LuckPerms on the default H2 database (any `lp`
+commands run before pack 1.27.0), that data is not migrated automatically: run
+`lp export before` on the old version, then `lp import before` after updating,
+or simply re-run the parent-set command for each admin.
 
 ## Not included, and why
 
