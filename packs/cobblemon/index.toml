@@ -26,6 +26,16 @@ hash = "ee057daa85d289dc2a860fcb7108d19d4b355235348498de63892daa262ec277"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-poke-fusion.pw.toml"
+hash = "5c46476044194177e215a49f5804b233a8bbb9583e9a0185eecb71c8a62f78f9"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-pokedex-rewards.pw.toml"
+hash = "27e42dcebd18166bdfb6733b0812b3efbc710662a435a9410682a9720fb97ddd"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "4ee82c782d240cf3bce3c939203ddc4f331e80c1f8e499208370f53bbc9ba6f3"
 metafile = true
@@ -38,6 +48,11 @@ metafile = true
 [[files]]
 file = "mods/cobblesafari.pw.toml"
 hash = "5a3b933cc7c4cb1b60e33779f2cff7583475e7c7b1eba023bf43739ab336cdd1"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "e37aafe5cd58c8289c3b8929393cba2a5c7f2cdd5bbe01e9c6ada1f3f5b86436"
 metafile = true
 
 [[files]]
@@ -62,12 +77,12 @@ metafile = true
 
 [[files]]
 file = "mods/luckperms.pw.toml"
-hash = "a27d167b9f7f2768da2d47bfe24504781889aa0d0f8fab6b0780fd3b1968d9b1"
+hash = "88b5510e39cdc8ca356d54bc436edc777d5eafc03203a8724784183408fe6792"
 metafile = true
 
 [[files]]
 file = "mods/melius-essentials.pw.toml"
-hash = "13969b1a5199db57c634fe03d0266a136a282a63fde47a27d806654ad13a1bd7"
+hash = "4aacdc4bfb88a4dd6d503810190f7c22df05ed51bfd1782e8d57fa80c0dd3f19"
 metafile = true
 
 [[files]]
@@ -83,4 +98,9 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "f2b1e5e03c75404e88144da6bc7552ecd85a198ff40b5da89f8253578d09e6b6"
+metafile = true
+
+[[files]]
+file = "mods/starter-kit.pw.toml"
+hash = "f775fa06f3eb39151a7a32d7f93d984300f92d882a8661e600e9eba3117e213e"
 metafile = true

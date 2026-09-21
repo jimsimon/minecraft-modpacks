@@ -1,0 +1,13 @@
+name = "Cobblemon: Pokedex Rewards"
+filename = "pokedexrewards-1.1.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/zYbzy31v/versions/jqI8Amlu/pokedexrewards-1.1.1.jar"
+hash-format = "sha512"
+hash = "3d98b97ea9b15ebbcbfe3b022fcab90c47758542683918aad864378cd5ed32366575a4032626c28f3d9812a207619a976e53e3383639c16e08b46d7a68fe190e"
+
+[update]
+[update.modrinth]
+mod-id = "zYbzy31v"
+version = "jqI8Amlu"

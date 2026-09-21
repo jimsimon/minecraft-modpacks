@@ -1,6 +1,6 @@
 name = "Fabric Essentials"
 filename = "fabric-essentials-1.4.10+1.21.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/o69N0FT2/versions/KVW2AIIf/fabric-essentials-1.4.10%2B1.21.1.jar"

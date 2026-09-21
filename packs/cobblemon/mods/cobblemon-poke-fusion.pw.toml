@@ -1,0 +1,13 @@
+name = "Cobblemon Poke Fusion"
+filename = "CobblemonPokeFusion-3.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/79f21COk/versions/Mxuf9113/CobblemonPokeFusion-3.5.0.jar"
+hash-format = "sha512"
+hash = "d68ac392e15ef641dbdd19e1115f2aa71b801deeee86268dd58812e4f9e03d530d53b0dcf17044ea439e3f4151867efcfbdc24796cdd8ca3136884fa01a82016"
+
+[update]
+[update.modrinth]
+mod-id = "79f21COk"
+version = "Mxuf9113"
