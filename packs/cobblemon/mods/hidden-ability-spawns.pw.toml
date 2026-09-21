@@ -1,0 +1,13 @@
+name = "Hidden Ability Spawns [Cobblemon]"
+filename = "HiddenAbilitySpawns-1.2.0+1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/tdWK1rZh/versions/bJq5LDlZ/HiddenAbilitySpawns-1.2.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "d01f42be6f02c5470155f178aa476ee986ddf2c726425792ada88978355836b07442c12c37d4e0f16467d53d74cce65c835cc409faaa460cc26520024d14a8f9"
+
+[update]
+[update.modrinth]
+mod-id = "tdWK1rZh"
+version = "bJq5LDlZ"

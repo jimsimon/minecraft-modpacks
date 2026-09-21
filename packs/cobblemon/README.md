@@ -1,7 +1,7 @@
 # cobblemon
 
 Server-oriented Cobblemon pack: Cobblemon 1.8.x on Fabric / Minecraft 1.21.1
-with gyms, raids, Mega/Dynamax/Z-Move/Tera battles, a Safari, Ultra Wormhole events, an economy, a GTS, homes/teleports, starter kits, Pokémon fusion, Pokédex rewards and voice chat, with LuckPerms for permissions. Built to replace the
+with gyms, raids, Mega/Dynamax/Z-Move/Tera battles, a Safari, Ultra Wormhole events, an economy, a GTS, NPC trainers, breeding, homes/teleports/waystones, starter kits, Pokémon fusion, Pokédex rewards and voice chat, with LuckPerms for permissions. Built to replace the
 Cobblemon Delta client pack, which does not ship any of its server features.
 
 | Mod | Why |
@@ -22,6 +22,17 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Simple Voice Chat | Proximity voice; each server needs its own UDP port in the 24454-24470 range |
 | Terralith | Overworld biome overhaul using vanilla blocks; Cobblemon's spawn data targets its biomes. Same worldgen Cobbleverse uses |
 | Tectonic | Larger-scale terrain: taller mountains, deeper valleys and caves; layers on top of Terralith |
+| Radical Cobblemon Trainers | 1,500+ NPC trainers roaming the world (Radical Red, Unbound, BDSP); requires Cobblemon 1.8 since 0.19.0 (pulls RCT API, Forge Config API Port) |
+| Cobbreeding | Pokémon breeding through pastures; 2.3.0 is the Cobblemon 1.8 build (pulls Cloth Config) |
+| Cobblemon Capture XP | Team gains XP on capture; 1.8.1 build (pulls Tim Core; server-side only) |
+| Cobblemon: SafePastures | Pastured Pokémon cannot be killed or stolen; 1.8 build (server-side only) |
+| Cobblemon Spawn Notification | Chat announcements for legendary/shiny/rare spawns; 1.8.1 build (server-side only) |
+| Hidden Ability Spawns | Configurable chance of wild hidden abilities; 1.8 build (server-side only) |
+| Cobblemon PokeNav | PokéNav device for tracking spawns and party info |
+| Waystones | Teleport network via waystone blocks (pulls Balm) |
+| Repurposed Structures | More vanilla-structure variants (pulls MidnightLib; server-side only) |
+| MobsBeGone | Blocks vanilla mob spawns; blocklist in `config/mobsbegone-blacklist.json` (copied from Cobbleverse: all hostile mobs and vanilla animals, villagers kept) (server-side only) |
+| Global Packs | Loads the bundled `datapacks/` on every world; `datapacks/no-hunger` keeps the hunger bar full (server-side only) |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
 
@@ -60,6 +71,8 @@ the `default` group needs nothing unless you want to restrict them.
   habitat spawning), a tiny experimental mod from August 2026 with no
   Cobblemon 1.8 statement. Revisit if it matures.
 
+- **Fight or Flight Reborn** (wild Pokémon attack outside battle): works on
+  1.8 per its author but deliberately left out.
 - **Fusion alternative**: `starlightfusion` adds bespoke fusion models
   (Sylvevoir and friends) rather than configurable recipes; it is
   client-required and its Cobblemon 1.8 status is unstated.

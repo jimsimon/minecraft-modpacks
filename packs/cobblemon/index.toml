@@ -1,6 +1,26 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/global_packs.toml"
+hash = "1d42af4a01d0493c9f869fc029654e6c603f0d9b6a66782873bebd7ee52f6717"
+
+[[files]]
+file = "config/mobsbegone-blacklist.json"
+hash = "10774f46f18b2f0ed79423069651003ed8a627c930796ccee41a5cc9da5fe2f9"
+
+[[files]]
+file = "datapacks/no-hunger/data/minecraft/tags/function/tick.json"
+hash = "3bcd79736b71a0d5052d50b455efcfcf04d5ab08ba4eb2a28cd2cb43bc3937e8"
+
+[[files]]
+file = "datapacks/no-hunger/data/no_hunger/function/tick.mcfunction"
+hash = "23fee2127e8839e52f0435941869365aa0469ecc61937657a58a86f99e3bccf7"
+
+[[files]]
+file = "datapacks/no-hunger/pack.mcmeta"
+hash = "a221daec525012a2aa289bafa8f4ac233677cf8a1ec219dc4a3cd8a2bef0b8be"
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "5285ba249b00d0d12a3cd1f64a5536e7618770dee31d3d240f9d4345ef69f888"
 metafile = true
@@ -8,6 +28,21 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "0fb3808193da9b587367337d12d202d7b006e2522637a6502913d66a84f8626f"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "de7bb9eecb68ac760a184374d6c59f24fa905ab11983a0f92b65113ad9d54c9a"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-capture-xp.pw.toml"
+hash = "18db278b07d9ce9b6c259564e29669d2077dd3799bedb58867c87c0c05698f20"
 metafile = true
 
 [[files]]
@@ -36,6 +71,26 @@ hash = "27e42dcebd18166bdfb6733b0812b3efbc710662a435a9410682a9720fb97ddd"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-pokenav.pw.toml"
+hash = "beef877ae05ddf412ce68470a80c59fa7fcf66e4eea2aaecdf267e84925c6822"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-safepastures.pw.toml"
+hash = "2e8c06d87280fb0004e295a6c4988540f8fb548d425ec2e9f177213da75802d2"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-spawn-notification.pw.toml"
+hash = "21f026f3d72266c82590cce8494fba601bc06e72bfa81baea108a5d30194e210"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-tim-core.pw.toml"
+hash = "4f72ee8ad0700b40e65a032e0fd1b62703931954e0ca786c6f8fd712f2527928"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-ultra-wormholes.pw.toml"
 hash = "8858a1d0dabd3cd25bd3527a7db5301abae9d47a76f6a8760d76b07543e8dce4"
 metafile = true
@@ -56,6 +111,11 @@ hash = "5a3b933cc7c4cb1b60e33779f2cff7583475e7c7b1eba023bf43739ab336cdd1"
 metafile = true
 
 [[files]]
+file = "mods/cobbreeding.pw.toml"
+hash = "8f472ad517afe778fa8afbc7d84bad9f69e0e4ff9e83d2d2fca57b006d242b4c"
+metafile = true
+
+[[files]]
 file = "mods/collective.pw.toml"
 hash = "e37aafe5cd58c8289c3b8929393cba2a5c7f2cdd5bbe01e9c6ada1f3f5b86436"
 metafile = true
@@ -71,8 +131,23 @@ hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "5f62f54e16fdc97a0fb21b63a563583f85d141772f6aa99f68d40cd654b7dc35"
+metafile = true
+
+[[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "c93825dca8cf077a5aa1d1d7e748648ab5429b1c91703cc9f41aa20d70d6e0fc"
+metafile = true
+
+[[files]]
+file = "mods/hidden-ability-spawns.pw.toml"
+hash = "1cbe7e20747accdd472ad42c227558ec2043961e363bb7910c97fe7fd2db5127"
 metafile = true
 
 [[files]]
@@ -96,6 +171,16 @@ hash = "4aacdc4bfb88a4dd6d503810190f7c22df05ed51bfd1782e8d57fa80c0dd3f19"
 metafile = true
 
 [[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "bfd1cfbb3dcb8447481197ccf66cdf04f9479f16c0dce96cd3644dd3e99b58cf"
+metafile = true
+
+[[files]]
+file = "mods/mobsbegone.pw.toml"
+hash = "07dead0c8e36d9604c611c2c8d4f0c99f85410dfa0daf6f9a779747d9a6b86af"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "31e7b4d016cbdf3f0abbb1ab202cf60e84ff8330ebbf6f043739128fb9133fad"
 metafile = true
@@ -103,6 +188,21 @@ metafile = true
 [[files]]
 file = "mods/rad-gyms.pw.toml"
 hash = "aad89cd7c8293622f6e58c83a080d004a064f45ccdb84c8e93bd235b0ff5b534"
+metafile = true
+
+[[files]]
+file = "mods/rctapi.pw.toml"
+hash = "d93776295991e74e5d86b63ea9cbed68ea2f076a619f3afecff51484827760ce"
+metafile = true
+
+[[files]]
+file = "mods/rctmod.pw.toml"
+hash = "139e5d7578723582f912f4a83e62065468b5cab439f55b9abe164b6c16198697"
+metafile = true
+
+[[files]]
+file = "mods/repurposed-structures-fabric.pw.toml"
+hash = "f752a06798a635fa0fe2e2c025dc99bf6d6b8e3188016446cee21decd7d43ff8"
 metafile = true
 
 [[files]]
@@ -123,4 +223,9 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "66e1ed3e329e3ffa72a59acf74fae153157e6fb7d836afedb687b61ec2d8113a"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "db279d992170ffe5d79a37771e898e74b6f6cb1c03280727b0debe6e4b6316fb"
 metafile = true
