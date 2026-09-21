@@ -323,3 +323,8 @@ metafile = true
 file = "mods/yacl.pw.toml"
 hash = "af20070dd9497817a83162c17b181a0a44f7213ea302d059a81c5aed02d0c877"
 metafile = true
+
+[[files]]
+file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
+hash = "224356816f38b00457a54268435fc051f03b8f649cf9df099c676e5641f9b57f"
+metafile = true

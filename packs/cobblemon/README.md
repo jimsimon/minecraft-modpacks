@@ -47,6 +47,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Ok Zoomer | Zoom key (default C) with scroll-to-adjust; chosen over Zoomify, which crashes on Steam Deck (client-side only) |
 | Xaero's Minimap | Corner minimap with waypoints and entity radar (client-side only) |
 | Xaero's World Map | Full-screen explored-world map, shares waypoints with the minimap (client-side only) |
+| E19 Cobblemon Minimap Icons (resource pack) | Pokémon head icons on Xaero's minimap/world map instead of generic dots. Ships to `resourcepacks/`; each player enables it once under Options → Resource Packs (client-side only) |
 | Controlify | Controller / Steam Deck support with in-game button prompts and a virtual cursor for menus (pulls YACL). Also installed server-side so clients get analogue stick movement without a whitelist prompt and Bedrock-style reach-around placement; policies in `config/controlify/server.json` |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
