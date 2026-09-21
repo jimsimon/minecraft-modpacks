@@ -61,6 +61,16 @@ hash = "e10e639f71700a67d7f9b9d747e1685f838d703dadd432464b54e31b26f4742b"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "a27d167b9f7f2768da2d47bfe24504781889aa0d0f8fab6b0780fd3b1968d9b1"
+metafile = true
+
+[[files]]
+file = "mods/melius-essentials.pw.toml"
+hash = "13969b1a5199db57c634fe03d0266a136a282a63fde47a27d806654ad13a1bd7"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "31e7b4d016cbdf3f0abbb1ab202cf60e84ff8330ebbf6f043739128fb9133fad"
 metafile = true

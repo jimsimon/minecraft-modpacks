@@ -1,7 +1,7 @@
 # cobblemon
 
 Server-oriented Cobblemon pack: Cobblemon 1.8.x on Fabric / Minecraft 1.21.1
-with gyms, raids, Mega/Dynamax/Z-Move/Tera battles, a Safari, an economy, a GTS and voice chat. Built to replace the
+with gyms, raids, Mega/Dynamax/Z-Move/Tera battles, a Safari, an economy, a GTS, homes/teleports and voice chat, with LuckPerms for permissions. Built to replace the
 Cobblemon Delta client pack, which does not ship any of its server features.
 
 | Mod | Why |
@@ -13,11 +13,33 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | CobbleSafari | Safari Zone dimension; 0.3.5 is the Cobblemon 1.8 build |
 | Cobblemon Economy | PokéDollars and shops |
 | Cobblemon GTS | Global trade station (server-side only) |
+| Fabric Essentials | `/home`, `/sethome`, `/tpa`, `/tpaccept`, `/back`, `/warp`, `/spawn` and more (server-side only) |
+| LuckPerms | Permission groups; controls who may use admin commands (server-side only) |
 | Simple Voice Chat | Proximity voice; each server needs its own UDP port in the 24454-24470 range |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
 
 Requires Java 21 (Cobblemon refuses 25).
+
+## Permissions
+
+LuckPerms stores its data in `config/luckperms/` (H2 by default; part of the
+server backup). Bootstrap from the Crafty console, where commands run as the
+server operator:
+
+```text
+lp creategroup admin
+lp group admin permission set fabric-essentials.* true
+lp group admin permission set cobblemon.* true
+lp group admin permission set minecraft.command.* true
+lp user <player> parent set admin
+```
+
+Fabric Essentials permission nodes follow `fabric-essentials.command.<name>`;
+the full list is in its
+[COMMANDS.md](https://github.com/DrexHD/FabricEssentials/blob/main/COMMANDS.md).
+Player commands such as home and tpa are allowed for everyone by default, so
+the `default` group needs nothing unless you want to restrict them.
 
 ## Not included, and why
 
