@@ -32,7 +32,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Waystones | Teleport network via waystone blocks (pulls Balm) |
 | Repurposed Structures | More vanilla-structure variants (pulls MidnightLib; server-side only) |
 | MobsBeGone | Blocks vanilla mob spawns; blocklist in `config/mobsbegone-blacklist.json` (copied from Cobbleverse: all hostile mobs and vanilla animals, villagers kept) (server-side only) |
-| Global Packs | Loads the bundled `datapacks/` on every world; `datapacks/no-hunger` keeps the hunger bar full (server-side only) |
+| Global Packs | Loads the bundled `datapacks/` on every world; `datapacks/no-hunger` keeps the hunger bar full and `datapacks/keep-inventory` sets `keepInventory` on world load (server-side only) |
 | Pokeblocks | Placeable Pokémon dolls/plushies (pulls GeckoLib) |
 | CobbleFurnies | Cobblemon-themed furniture: Poké Ball chairs, PC-style desks and more (pulls Resourceful Lib) |
 | Handcrafted | General furniture: tables, chairs, benches, shelves, kitchen blocks |
@@ -49,6 +49,17 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Xaero's World Map | Full-screen explored-world map, shares waypoints with the minimap (client-side only) |
 | E19 Cobblemon Minimap Icons (resource pack) | Pokémon head icons on Xaero's minimap/world map instead of generic dots. Ships to `resourcepacks/`; each player enables it once under Options → Resource Packs (client-side only) |
 | Controlify | Controller / Steam Deck support with in-game button prompts and a virtual cursor for menus (pulls YACL). Also installed server-side so clients get analogue stick movement without a whitelist prompt and Bedrock-style reach-around placement; policies in `config/controlify/server.json` |
+| Sodium, ImmediatelyFast, Entity Culling, ModernFix, Dynamic FPS | Client performance; the set the Steam Deck needs (client-side only) |
+| FerriteCore | Lower memory use for block states (both sides) |
+| Iris + Complementary Reimagined / Unbound | Shader support with both Complementary variants in `shaderpacks/`; off until a player picks one under Video Settings → Shader Packs, K toggles (client-side only) |
+| Neruina | Removes entities that throw ticking exceptions instead of crashing the server (server-side only; pulls Configurable) |
+| Krypton | Network stack optimisation (server-side only) |
+| spark | Profiler: `/spark tps`, `/spark profiler` (server-side only) |
+| Chunky | Chunk pre-generation, e.g. `/chunky radius 2000` then `/chunky start` (server-side only) |
+| Ping Wheel | Hold the ping key and click to drop a marker everyone sees |
+| Emotecraft | Emote wheel; server side relays emotes between players |
+| Better Third Person | Free-look third-person camera (client-side only) |
+| Mod Menu | In-game mod list with config screens (client-side only; pulls Text Placeholder API) |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
 

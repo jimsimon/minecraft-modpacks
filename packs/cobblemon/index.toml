@@ -13,6 +13,18 @@ file = "config/mobsbegone-blacklist.json"
 hash = "10774f46f18b2f0ed79423069651003ed8a627c930796ccee41a5cc9da5fe2f9"
 
 [[files]]
+file = "datapacks/keep-inventory/data/keep_inventory/function/load.mcfunction"
+hash = "07fa36485910f7de95f1061d6d1b6a506e6d4848976a524e672780bc46bb5573"
+
+[[files]]
+file = "datapacks/keep-inventory/data/minecraft/tags/function/load.json"
+hash = "63564b748fae1d2891a2f519de54a587c10ee7683143dc5f58620a0ed3eaffe6"
+
+[[files]]
+file = "datapacks/keep-inventory/pack.mcmeta"
+hash = "c5af557eec3079e0fc6ac5f9532a036e65ca00b5c432de69fe99d9ab4ed7a2b5"
+
+[[files]]
 file = "datapacks/no-hunger/data/minecraft/tags/function/tick.json"
 hash = "3bcd79736b71a0d5052d50b455efcfcf04d5ab08ba4eb2a28cd2cb43bc3937e8"
 
@@ -45,6 +57,11 @@ hash = "de7bb9eecb68ac760a184374d6c59f24fa905ab11983a0f92b65113ad9d54c9a"
 metafile = true
 
 [[files]]
+file = "mods/better-third-person.pw.toml"
+hash = "dd18db1413980ef467ac2e86c7e5f3cef26d366119f43121204a442583e7c0bd"
+metafile = true
+
+[[files]]
 file = "mods/catch-indicator.pw.toml"
 hash = "0b3f5077664c6c6a37f2f8b511c7d5f69afad78c707803a9ace94b0fbddab1e1"
 metafile = true
@@ -52,6 +69,11 @@ metafile = true
 [[files]]
 file = "mods/catch-rate-display.pw.toml"
 hash = "aab58784abf7244373810eff5b06a8f870cbdc9c951fa6afaed0e2015291263f"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "14f64df0e72502d7f3a375eb92061c904dc68f8f415e7591a6345ccc12cfaba2"
 metafile = true
 
 [[files]]
@@ -170,8 +192,28 @@ hash = "e37aafe5cd58c8289c3b8929393cba2a5c7f2cdd5bbe01e9c6ada1f3f5b86436"
 metafile = true
 
 [[files]]
+file = "mods/configurable.pw.toml"
+hash = "f14dd01453d9193bab3c4f966340fdbdc5008363b09a8ae5066f6d9def0e84cc"
+metafile = true
+
+[[files]]
 file = "mods/controlify.pw.toml"
 hash = "248d0f3fbee027be6ce7da52defd26b9adfcf55c5a0c25806978a04a20e99408"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "582070fa54fe1743a837c0351eee7ea4a79080e647d5438656d372ae9433b272"
+metafile = true
+
+[[files]]
+file = "mods/emotecraft.pw.toml"
+hash = "135837201d4c30811971e630e957867397b995e6803ff75754d510bf1b4fe8fc"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "a3754968e72dd9f5bf089f3c4693118aa41d398b1ddc2909f79fac3237a31abf"
 metafile = true
 
 [[files]]
@@ -182,6 +224,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "1d5799cd3b6ea714602c18546b99ba894e7511835b77803304792468fb7ee187"
 metafile = true
 
 [[files]]
@@ -207,6 +254,21 @@ metafile = true
 [[files]]
 file = "mods/hidden-ability-spawns.pw.toml"
 hash = "1cbe7e20747accdd472ad42c227558ec2043961e363bb7910c97fe7fd2db5127"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "10930324bc5d409d8d557b003a1b7eaf1af00dc336db8f7aea877335f0748aa1"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "6ee94689dd67f0210e07feafac8140e8968bcbcd67defcfbdcd677cf78943900"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "1d1a9561a82827bfb42f36a4746ca35af6c13de81c4d2f429604af5eb5199527"
 metafile = true
 
 [[files]]
@@ -240,8 +302,23 @@ hash = "07dead0c8e36d9604c611c2c8d4f0c99f85410dfa0daf6f9a779747d9a6b86af"
 metafile = true
 
 [[files]]
+file = "mods/modernfix.pw.toml"
+hash = "7dd0decf35cae00480f5344297f378fb60e18f5938a32a143ac801e7c522456e"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "4a33f888af603e0859359f44b068854e4148d4fba35ee0818bb977171236a805"
+metafile = true
+
+[[files]]
 file = "mods/navas-zamega.pw.toml"
 hash = "c55a705b886cfec789b438e41357f0aae83a7987b70364661ee3563530571fdf"
+metafile = true
+
+[[files]]
+file = "mods/neruina.pw.toml"
+hash = "f37c7f22dc2bba9dc46f8b012501f39aa530a84d28b2b977302d56066dec35fe"
 metafile = true
 
 [[files]]
@@ -252,6 +329,16 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "31e7b4d016cbdf3f0abbb1ab202cf60e84ff8330ebbf6f043739128fb9133fad"
+metafile = true
+
+[[files]]
+file = "mods/ping-wheel.pw.toml"
+hash = "4ccbb6584b31d773a90bed3ccaf9704eeec840d3f4e33953b1b7757db6c743f8"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "2e2c1b47b513663871e71c89a699c66ac9fcc97633f007ed064ce4410f220f5a"
 metafile = true
 
 [[files]]
@@ -287,6 +374,16 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "f2b1e5e03c75404e88144da6bc7552ecd85a198ff40b5da89f8253578d09e6b6"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "869af67848bf3b9ba4384bc9fb0cbe303d35263bd8de75eeabcba796edf4d7c6"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "f03452b38a7ce73431c647b772f11051d30bb23891f6dfba1173a65319f4d7ac"
 metafile = true
 
 [[files]]
@@ -327,4 +424,14 @@ metafile = true
 [[files]]
 file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
 hash = "224356816f38b00457a54268435fc051f03b8f649cf9df099c676e5641f9b57f"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
 metafile = true
