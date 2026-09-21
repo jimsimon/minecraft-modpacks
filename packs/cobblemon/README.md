@@ -33,7 +33,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Repurposed Structures | More vanilla-structure variants (pulls MidnightLib; server-side only) |
 | MobsBeGone | Blocks vanilla mob spawns; blocklist in `config/mobsbegone-blacklist.json` (copied from Cobbleverse: all hostile mobs and vanilla animals, villagers kept) (server-side only) |
 | AllTheMons x Mega Showdown (addon) | Community merge of "missing Pokémon" addons, v4.0 built for Cobblemon 1.8 and Mega Showdown. A combined data+resource pack in `addons/`; Global Packs loads it on the server and auto-enables it on clients |
-| Global Packs | Loads the bundled `datapacks/` and `addons/` on every world and client; `datapacks/no-hunger` keeps the hunger bar full and `datapacks/keep-inventory` sets `keepInventory` on world load (server-side only) |
+| Global Packs | Loads the bundled `datapacks/` and `addons/` on every world and client; `datapacks/no-hunger` keeps the hunger bar full and `datapacks/keep-inventory` sets `keepInventory` and `playersSleepingPercentage 1` (one sleeper skips the night) on world load (server-side only) |
 | Pokeblocks | Placeable Pokémon dolls/plushies (pulls GeckoLib) |
 | CobbleFurnies | Cobblemon-themed furniture: Poké Ball chairs, PC-style desks and more (pulls Resourceful Lib) |
 | Handcrafted | General furniture: tables, chairs, benches, shelves, kitchen blocks |
@@ -61,6 +61,12 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Emotecraft | Emote wheel; server side relays emotes between players |
 | Better Third Person | Free-look third-person camera (client-side only) |
 | Mod Menu | In-game mod list with config screens (client-side only; pulls Text Placeholder API) |
+| Jade + Cobblemon Integrations | Hover info for blocks and entities; Integrations adds Pokémon name/level, apricorn growth, healer charge, berry bushes, and a Pokémon teleport-to-Waystone option (1.8 build) |
+| EMI | Recipe viewer, R on any item (client-side only) |
+| Traveler's Backpack | Wearable backpacks (pulls Cloth Config and its own lib) |
+| Tom's Simple Storage | Storage terminal that searches every linked chest |
+| 3D Skin Layers, Mouse Tweaks, Not Enough Crashes | Client QoL: layered skins, drag-stacking in inventories, return to title screen on client crash (client-side only) |
+| Falling Leaves, Visuality | Ambience particles (client-side only) |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
 

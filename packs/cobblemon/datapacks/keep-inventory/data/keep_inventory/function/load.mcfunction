@@ -1,1 +1,2 @@
 gamerule keepInventory true
+gamerule playersSleepingPercentage 1

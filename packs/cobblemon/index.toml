@@ -24,7 +24,7 @@ hash = "10774f46f18b2f0ed79423069651003ed8a627c930796ccee41a5cc9da5fe2f9"
 
 [[files]]
 file = "datapacks/keep-inventory/data/keep_inventory/function/load.mcfunction"
-hash = "07fa36485910f7de95f1061d6d1b6a506e6d4848976a524e672780bc46bb5573"
+hash = "4bd15c4f1ff1bf64f54304721ca51db5384d2b10b450863d1b502a6eabc27d14"
 
 [[files]]
 file = "datapacks/keep-inventory/data/minecraft/tags/function/load.json"
@@ -32,7 +32,7 @@ hash = "63564b748fae1d2891a2f519de54a587c10ee7683143dc5f58620a0ed3eaffe6"
 
 [[files]]
 file = "datapacks/keep-inventory/pack.mcmeta"
-hash = "c5af557eec3079e0fc6ac5f9532a036e65ca00b5c432de69fe99d9ab4ed7a2b5"
+hash = "a910cf2580058e41aabf07fa2af0175dbb205a4702ac71d4f4456e4c13315896"
 
 [[files]]
 file = "datapacks/no-hunger/data/minecraft/tags/function/tick.json"
@@ -45,6 +45,11 @@ hash = "23fee2127e8839e52f0435941869365aa0469ecc61937657a58a86f99e3bccf7"
 [[files]]
 file = "datapacks/no-hunger/pack.mcmeta"
 hash = "a221daec525012a2aa289bafa8f4ac233677cf8a1ec219dc4a3cd8a2bef0b8be"
+
+[[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "3fea159faa74d2a69390f62d770aa878429dc1dbf6dd6d590ee356d6719d1973"
+metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -69,6 +74,11 @@ metafile = true
 [[files]]
 file = "mods/better-third-person.pw.toml"
 hash = "dd18db1413980ef467ac2e86c7e5f3cef26d366119f43121204a442583e7c0bd"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components-api.pw.toml"
+hash = "0c345c80310a4bd58c757e43d6060338a85d34eaffcb674a6e9cbf22ecbc9cb8"
 metafile = true
 
 [[files]]
@@ -119,6 +129,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-gts.pw.toml"
 hash = "df7552121292cdc1d42f8234923774a55816e5fbff57f76d1570e0d71985d08b"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-integrations.pw.toml"
+hash = "06cadd5fcdac84ad611e8f5bcdda7169488586286a7b158800330a0bd5d8e375"
 metafile = true
 
 [[files]]
@@ -217,6 +232,11 @@ hash = "582070fa54fe1743a837c0351eee7ea4a79080e647d5438656d372ae9433b272"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "bfc939958a6d23a40f8c706cc1b895c6be3de1972dfd958a3b40406d0b34fef7"
+metafile = true
+
+[[files]]
 file = "mods/emotecraft.pw.toml"
 hash = "135837201d4c30811971e630e957867397b995e6803ff75754d510bf1b4fe8fc"
 metafile = true
@@ -234,6 +254,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
+metafile = true
+
+[[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "ad4e8689c50fedd770fb5cf28561edbd41f6b483bcfd6e3dd3d0c337789c0110"
 metafile = true
 
 [[files]]
@@ -274,6 +299,11 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "6ee94689dd67f0210e07feafac8140e8968bcbcd67defcfbdcd677cf78943900"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "fd56a0cff0fa0172c35309f52e7bf76731abde661b03977bc8380bba687cbe98"
 metafile = true
 
 [[files]]
@@ -322,6 +352,11 @@ hash = "4a33f888af603e0859359f44b068854e4148d4fba35ee0818bb977171236a805"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "7fc969e77edc3b0b9946b42070fd858349a74555f0cf9648907241af8a3a2d25"
+metafile = true
+
+[[files]]
 file = "mods/navas-zamega.pw.toml"
 hash = "c55a705b886cfec789b438e41357f0aae83a7987b70364661ee3563530571fdf"
 metafile = true
@@ -329,6 +364,11 @@ metafile = true
 [[files]]
 file = "mods/neruina.pw.toml"
 hash = "f37c7f22dc2bba9dc46f8b012501f39aa530a84d28b2b977302d56066dec35fe"
+metafile = true
+
+[[files]]
+file = "mods/notenoughcrashes.pw.toml"
+hash = "328d2cc6da28edfa86dbd087a80c13a119af381bf0ed0f83cfd16fc153fe0769"
 metafile = true
 
 [[files]]
@@ -409,6 +449,21 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "66e1ed3e329e3ffa72a59acf74fae153157e6fb7d836afedb687b61ec2d8113a"
+metafile = true
+
+[[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "a8d6d924b7b2b2e6c0cdfaf76bc54e1d4a7cf04351b06b66a2fa6dc959beeb93"
+metafile = true
+
+[[files]]
+file = "mods/travelersbackpack.pw.toml"
+hash = "76c319b18147464969222ce63823f32ea49d87e337d6c82b20568efe0ef2f331"
+metafile = true
+
+[[files]]
+file = "mods/visuality.pw.toml"
+hash = "39426bfeeab22ea17f94fd3904dd9b78f9a3c9b4ddcb732b734ddbfd0e3568af"
 metafile = true
 
 [[files]]

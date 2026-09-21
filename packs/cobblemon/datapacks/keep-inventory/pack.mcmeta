@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 48,
-    "description": "Players keep their inventory on death"
+    "description": "Gamerules: keepInventory on, one sleeping player skips the night"
   }
 }
