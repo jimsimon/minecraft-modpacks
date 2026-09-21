@@ -36,7 +36,7 @@ hash = "10774f46f18b2f0ed79423069651003ed8a627c930796ccee41a5cc9da5fe2f9"
 
 [[files]]
 file = "config/starterkit/kits/Default.txt"
-hash = "8ae16ff82a5aca7bb53d126e3cba4debae54a76b38fe94bc6b52afdce7cf45a2"
+hash = "23e47b76de9e23952a5c8452281673bd9df5498b6a7fff70b9c1e4524a66457e"
 
 [[files]]
 file = "datapacks/keep-inventory/data/keep_inventory/function/load.mcfunction"
