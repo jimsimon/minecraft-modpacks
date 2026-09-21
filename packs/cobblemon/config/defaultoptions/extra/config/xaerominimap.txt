@@ -1,3 +1,6 @@
 entityRadar:true
 radarHideInvisibleEntities:true
 mainEntityAs:0
+hideMinimapUnderScreen:true
+hideMinimapUnderF3:true
+module;id=xaerominimap:minimap;active=true;x=-23;y=-59;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;

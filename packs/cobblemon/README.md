@@ -142,8 +142,12 @@ still rebind. Cobblemon's debug portrait keys are unbound.
 | F6 / F7 | Raid accept / deny |
 | Mouse 5 | Ping |
 
-The minimap radar defaults come from `config/defaultoptions/extra/config/`
-(entity radar on, every category displayed with icons, so Pokémon show up).
+The minimap defaults come from `config/defaultoptions/extra/config/`: top-right
+corner, entity radar on with every category displayed with icons (so Pokémon show
+up), hidden while any GUI screen is open (which includes Cobblemon's battle
+screen). Default Options only seeds these on a fresh instance; on an existing
+client use Xaero's *Change Position* button, or delete `config/xaerominimap.txt`
+and relaunch.
 
 ## Permissions
 
