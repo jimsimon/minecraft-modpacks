@@ -31,6 +31,11 @@ hash = "0fb3808193da9b587367337d12d202d7b006e2522637a6502913d66a84f8626f"
 metafile = true
 
 [[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "fb5deb56a77c8a30f9fbc0c54ba5768bdb6d84c9b94d6de36edfb3076bff94b0"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "de7bb9eecb68ac760a184374d6c59f24fa905ab11983a0f92b65113ad9d54c9a"
 metafile = true
@@ -38,6 +43,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
+metafile = true
+
+[[files]]
+file = "mods/cobblefurnies.pw.toml"
+hash = "4ea6079e726435a8a9ecc92824c9bd2e0636495a4d73f8641e014cd5060c4d45"
 metafile = true
 
 [[files]]
@@ -146,6 +156,11 @@ hash = "c93825dca8cf077a5aa1d1d7e748648ab5429b1c91703cc9f41aa20d70d6e0fc"
 metafile = true
 
 [[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "2600fb5f2efa6dffd1bcc04eea4c2646c101da4320da0c88d5616d5c2f41a439"
+metafile = true
+
+[[files]]
 file = "mods/hidden-ability-spawns.pw.toml"
 hash = "1cbe7e20747accdd472ad42c227558ec2043961e363bb7910c97fe7fd2db5127"
 metafile = true
@@ -186,6 +201,11 @@ hash = "31e7b4d016cbdf3f0abbb1ab202cf60e84ff8330ebbf6f043739128fb9133fad"
 metafile = true
 
 [[files]]
+file = "mods/pokeblocks.pw.toml"
+hash = "5db32bd841fda8547d27e6c74ca4c11ea9a50285fbade0bed654deb8b5e48db0"
+metafile = true
+
+[[files]]
 file = "mods/rad-gyms.pw.toml"
 hash = "aad89cd7c8293622f6e58c83a080d004a064f45ccdb84c8e93bd235b0ff5b534"
 metafile = true
@@ -203,6 +223,11 @@ metafile = true
 [[files]]
 file = "mods/repurposed-structures-fabric.pw.toml"
 hash = "f752a06798a635fa0fe2e2c025dc99bf6d6b8e3188016446cee21decd7d43ff8"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "d3f633dd12cd039a4e58dd398d1c80a324b0d78b9da5b3972b69640bfed211ed"
 metafile = true
 
 [[files]]

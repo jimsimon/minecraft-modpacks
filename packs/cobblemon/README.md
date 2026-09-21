@@ -1,7 +1,7 @@
 # cobblemon
 
 Server-oriented Cobblemon pack: Cobblemon 1.8.x on Fabric / Minecraft 1.21.1
-with gyms, raids, Mega/Dynamax/Z-Move/Tera battles, a Safari, Ultra Wormhole events, an economy, a GTS, NPC trainers, breeding, homes/teleports/waystones, starter kits, Pokémon fusion, Pokédex rewards and voice chat, with LuckPerms for permissions. Built to replace the
+with gyms, raids, Mega/Dynamax/Z-Move/Tera battles, a Safari, Ultra Wormhole events, an economy, a GTS, NPC trainers, breeding, homes/teleports/waystones, starter kits, plushies and furniture, Pokémon fusion, Pokédex rewards and voice chat, with LuckPerms for permissions. Built to replace the
 Cobblemon Delta client pack, which does not ship any of its server features.
 
 | Mod | Why |
@@ -33,6 +33,9 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Repurposed Structures | More vanilla-structure variants (pulls MidnightLib; server-side only) |
 | MobsBeGone | Blocks vanilla mob spawns; blocklist in `config/mobsbegone-blacklist.json` (copied from Cobbleverse: all hostile mobs and vanilla animals, villagers kept) (server-side only) |
 | Global Packs | Loads the bundled `datapacks/` on every world; `datapacks/no-hunger` keeps the hunger bar full (server-side only) |
+| Pokeblocks | Placeable Pokémon dolls/plushies (pulls GeckoLib) |
+| CobbleFurnies | Cobblemon-themed furniture: Poké Ball chairs, PC-style desks and more (pulls Resourceful Lib) |
+| Handcrafted | General furniture: tables, chairs, benches, shelves, kitchen blocks |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
 
