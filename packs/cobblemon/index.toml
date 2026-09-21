@@ -63,7 +63,7 @@ metafile = true
 
 [[files]]
 file = "mods/athena-ctm.pw.toml"
-hash = "fb5deb56a77c8a30f9fbc0c54ba5768bdb6d84c9b94d6de36edfb3076bff94b0"
+hash = "16f4aa64663e05ba013f9a38c69695e4086a6403575adb29b1379b417d28e519"
 metafile = true
 
 [[files]]
@@ -178,7 +178,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "4f72ee8ad0700b40e65a032e0fd1b62703931954e0ca786c6f8fd712f2527928"
+hash = "ad08249b753f6f598d9478328b6eac03883f7189ea0509135a9e068894e98751"
 metafile = true
 
 [[files]]
@@ -474,6 +474,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "db279d992170ffe5d79a37771e898e74b6f6cb1c03280727b0debe6e4b6316fb"
+metafile = true
+
+[[files]]
+file = "mods/wild-battle-api.pw.toml"
+hash = "e8dca0279234ad0472d1e0c0e21b4782712eb5ccf79ad6caabd1508361b0c011"
 metafile = true
 
 [[files]]

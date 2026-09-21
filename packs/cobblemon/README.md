@@ -9,6 +9,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Cobblemon | The Pokémon mod. 1.8 includes native TMs. |
 | Rad Gyms | Gym leaders and badges; built against Cobblemon 1.8.1 |
 | Cobblemon: Mega Showdown | Mega Evolution, Dynamax/Gigantamax, Z-Moves, Terastallization; datapack-driven (pulls oωo, Accessories, Architectury) |
+| Wild Battle API | Library required by Ultra Wormholes but undeclared on Modrinth (server-side only) |
 | Cobblemon Ultra Wormholes | Timed Ultra Beast invasion events with a shared boss HP pool; `config/ultra_wormholes.json`, `/wormhole start\|stop\|status\|reload` (server-side only; optional client visuals) |
 | Cobblemon Raid Dens | Raid dens with raid bosses incl. Mega/Dynamax raids; 0.12 adds Cobblemon 1.8 support (pulls GeckoLib) |
 | CobbleSafari | Safari Zone dimension; 0.3.5 is the Cobblemon 1.8 build |
@@ -113,6 +114,14 @@ the `default` group needs nothing unless you want to restrict them.
   client-required and its Cobblemon 1.8 status is unstated.
 - **Dex rewards alternatives**: `dex-rewards` and `cobblemon-simpledexrewards`
   target Cobblemon 1.6 and have not been updated since early 2025.
+
+## Checking dependencies before a release
+
+Modrinth metadata is not always right: Athena is listed client-only but
+CobbleFurnies needs it on the server, and Ultra Wormholes does not declare Wild
+Battle API at all. Before tagging, download every jar and compare each mod's
+`fabric.mod.json` `depends` (including nested jars) against the mod ids present
+on each side. `scripts/check-deps.py` does this for a pack directory.
 
 ## Candidates not yet included
 
