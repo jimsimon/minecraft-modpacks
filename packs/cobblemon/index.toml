@@ -245,6 +245,11 @@ hash = "c55a705b886cfec789b438e41357f0aae83a7987b70364661ee3563530571fdf"
 metafile = true
 
 [[files]]
+file = "mods/ok-zoomer.pw.toml"
+hash = "58029f1f8d3ff8baef41e273399dc84a98c9bf447abaf607b2874038d4423055"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "31e7b4d016cbdf3f0abbb1ab202cf60e84ff8330ebbf6f043739128fb9133fad"
 metafile = true
@@ -302,6 +307,16 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "db279d992170ffe5d79a37771e898e74b6f6cb1c03280727b0debe6e4b6316fb"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "e1dcf3f9feab68622a91afc0469fede07d814ba6f1b48313140110e88f71753f"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "50b71e9a606967fe71966c5ab2916c6295b0ed1f8f20cef53e2aa5bcb45c1092"
 metafile = true
 
 [[files]]

@@ -44,6 +44,9 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Catch Indicator | Unseen/seen/caught icon on wild Pokémon; requires 1.8 (client-side only) |
 | Catch Rate Display | Live catch percentage per ball in battle; 1.8.1 (client-side only) |
 | Cobblethemes | Battle music themes incl. per-Pokémon tracks (client-side only) |
+| Ok Zoomer | Zoom key (default C) with scroll-to-adjust; chosen over Zoomify, which crashes on Steam Deck (client-side only) |
+| Xaero's Minimap | Corner minimap with waypoints and entity radar (client-side only) |
+| Xaero's World Map | Full-screen explored-world map, shares waypoints with the minimap (client-side only) |
 | Controlify | Controller / Steam Deck support with in-game button prompts and a virtual cursor for menus (pulls YACL). Also installed server-side so clients get analogue stick movement without a whitelist prompt and Bedrock-style reach-around placement; policies in `config/controlify/server.json` |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
