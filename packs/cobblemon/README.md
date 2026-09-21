@@ -67,7 +67,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Tom's Simple Storage | Storage terminal that searches every linked chest |
 | 3D Skin Layers, Mouse Tweaks, Not Enough Crashes | Client QoL: layered skins, drag-stacking in inventories, return to title screen on client crash (client-side only) |
 | Falling Leaves, Visuality | Ambience particles (client-side only) |
-| Distant Horizons | Level-of-detail terrain far beyond render distance. Toggle with its keybind or the Rendering option in its settings; LOD data is stored per world on each client (client-side only) |
+| Distant Horizons | Level-of-detail terrain far beyond render distance. Installed on the server too, so it generates and streams LODs and clients only render; toggle on the client via its settings. Server data lives in `world/data/DistantHorizons.sqlite`. Tune with `/dh config` (generation rate limit, max request distance, real-time updates); `/dh pregen` pre-builds LODs, but not while Chunky is running |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
 
