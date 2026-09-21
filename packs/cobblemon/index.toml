@@ -1,8 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "addons-client/e19_cobblemon_minimap_icons.pw.toml"
-hash = "224356816f38b00457a54268435fc051f03b8f649cf9df099c676e5641f9b57f"
+file = "addons-client/e19-cobblemon-minimap-icons.pw.toml"
+hash = "1abb9166c5cf2b048bb81fd3f8856e6ac29baa29e4eb43b355499f709b1ce470"
 metafile = true
 
 [[files]]

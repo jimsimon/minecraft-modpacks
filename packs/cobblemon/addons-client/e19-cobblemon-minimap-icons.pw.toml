@@ -1,0 +1,8 @@
+name = "E19 Cobblemon Minimap Icons (1.8 compat)"
+filename = "E19-Cobblemon-Minimap-Icons-cobblemon-compat.zip"
+side = "client"
+
+[download]
+url = "https://github.com/jimsimon/minecraft-modpacks/releases/download/assets-e19-1.4.4-r1/E19-Cobblemon-Minimap-Icons-cobblemon-compat.zip"
+hash-format = "sha256"
+hash = "7fab4b43d07e3a90526b8a8b3eee5a65c253e3760ca595298bbd19c7b8566a81"

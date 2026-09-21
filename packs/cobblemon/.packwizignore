@@ -1,2 +1,3 @@
 README.md
 RELEASE_NOTES.md
+addons-client/*.source.toml
