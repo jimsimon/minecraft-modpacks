@@ -20,10 +20,17 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Fabric Essentials | `/home`, `/sethome`, `/tpa`, `/tpaccept`, `/back`, `/warp`, `/spawn` and more (server-side only) |
 | LuckPerms | Permission groups; controls who may use admin commands (server-side only) |
 | Simple Voice Chat | Proximity voice; each server needs its own UDP port in the 24454-24470 range |
+| Terralith | Overworld biome overhaul using vanilla blocks; Cobblemon's spawn data targets its biomes. Same worldgen Cobbleverse uses |
+| Tectonic | Larger-scale terrain: taller mountains, deeper valleys and caves; layers on top of Terralith |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
 
 Requires Java 21 (Cobblemon refuses 25).
+
+**Worldgen note.** Terralith and Tectonic only affect chunks generated after
+they are installed. A world created before pack 1.6.0 keeps vanilla terrain in
+explored chunks with hard seams at the edge of new generation; regenerate the
+world (delete `world/` while the server is stopped) for a clean result.
 
 ## Permissions
 
