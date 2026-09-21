@@ -32,11 +32,17 @@ fi
 cd "$dir"
 
 # The index must be in sync with the files on disk; a stale index.toml means
-# someone edited a file without running `packwiz refresh`.
+# someone edited a file without running `packwiz refresh`. Compare the index
+# before and after a refresh rather than against git, so local uncommitted
+# edits that *were* refreshed still pass.
+tmp="$(mktemp -d)"; trap 'rm -rf "$tmp"' EXIT
+cp index.toml pack.toml "$tmp/"
 packwiz refresh >/dev/null
-if ! git diff --quiet -- . ; then
-  echo "packs/$pack is out of sync with its index; run 'packwiz refresh' in packs/$pack and commit:" >&2
-  git --no-pager diff --stat -- . >&2
+if ! cmp -s index.toml "$tmp/index.toml" || ! cmp -s pack.toml "$tmp/pack.toml"; then
+  echo "packs/$pack was out of sync with its index; 'packwiz refresh' changed:" >&2
+  diff -u "$tmp/index.toml" index.toml >&2 || true
+  diff -u "$tmp/pack.toml" pack.toml >&2 || true
+  echo "commit the refreshed index.toml/pack.toml and retry" >&2
   exit 1
 fi
 

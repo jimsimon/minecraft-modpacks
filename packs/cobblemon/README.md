@@ -1,7 +1,7 @@
 # cobblemon
 
 Server-oriented Cobblemon pack: Cobblemon 1.8.x on Fabric / Minecraft 1.21.1
-with gyms, an economy, a GTS, land claims and voice chat. Built to replace the
+with gyms, an economy, a GTS and voice chat. Built to replace the
 Cobblemon Delta client pack, which does not ship any of its server features.
 
 | Mod | Why |
@@ -10,7 +10,6 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Rad Gyms | Gym leaders and badges; built against Cobblemon 1.8.1 |
 | Cobblemon Economy | PokéDollars and shops |
 | Cobblemon GTS | Global trade station (server-side only) |
-| Flan | Land claims (`/flan claim`) |
 | Simple Voice Chat | Proximity voice; each server needs its own UDP port in the 24454-24470 range |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |

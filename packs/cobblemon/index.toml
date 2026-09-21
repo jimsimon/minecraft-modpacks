@@ -26,11 +26,6 @@ hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
 metafile = true
 
 [[files]]
-file = "mods/flan.pw.toml"
-hash = "9092856a9528bb2538cc6db095b2ec9e0e8cea44d70203bc9ae1eb502b82910f"
-metafile = true
-
-[[files]]
 file = "mods/lithium.pw.toml"
 hash = "e10e639f71700a67d7f9b9d747e1685f838d703dadd432464b54e31b26f4742b"
 metafile = true
