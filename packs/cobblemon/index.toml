@@ -36,6 +36,11 @@ hash = "27e42dcebd18166bdfb6733b0812b3efbc710662a435a9410682a9720fb97ddd"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-ultra-wormholes.pw.toml"
+hash = "8858a1d0dabd3cd25bd3527a7db5301abae9d47a76f6a8760d76b07543e8dce4"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "4ee82c782d240cf3bce3c939203ddc4f331e80c1f8e499208370f53bbc9ba6f3"
 metafile = true

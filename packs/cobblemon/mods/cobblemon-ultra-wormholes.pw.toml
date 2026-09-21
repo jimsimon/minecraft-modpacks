@@ -1,0 +1,13 @@
+name = "Cobblemon Ultra Wormholes"
+filename = "cobblemon_ultra_wormholes-fabric-1.1.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/65VFUCys/versions/S1GhiigM/cobblemon_ultra_wormholes-fabric-1.1.1.jar"
+hash-format = "sha512"
+hash = "e871178bd7d2e53f0c9f2e4318b98f730e36dcedcfb2703bc281699e6c748ae0e243515bb60929c2f9a6e4f1a7c148b470a51561a4091540701307c043806545"
+
+[update]
+[update.modrinth]
+mod-id = "65VFUCys"
+version = "S1GhiigM"

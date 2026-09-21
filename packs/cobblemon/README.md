@@ -1,7 +1,7 @@
 # cobblemon
 
 Server-oriented Cobblemon pack: Cobblemon 1.8.x on Fabric / Minecraft 1.21.1
-with gyms, raids, Mega/Dynamax/Z-Move/Tera battles, a Safari, an economy, a GTS, homes/teleports, starter kits, Pokémon fusion, Pokédex rewards and voice chat, with LuckPerms for permissions. Built to replace the
+with gyms, raids, Mega/Dynamax/Z-Move/Tera battles, a Safari, Ultra Wormhole events, an economy, a GTS, homes/teleports, starter kits, Pokémon fusion, Pokédex rewards and voice chat, with LuckPerms for permissions. Built to replace the
 Cobblemon Delta client pack, which does not ship any of its server features.
 
 | Mod | Why |
@@ -9,6 +9,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Cobblemon | The Pokémon mod. 1.8 includes native TMs. |
 | Rad Gyms | Gym leaders and badges; built against Cobblemon 1.8.1 |
 | Cobblemon: Mega Showdown | Mega Evolution, Dynamax/Gigantamax, Z-Moves, Terastallization; datapack-driven (pulls oωo, Accessories, Architectury) |
+| Cobblemon Ultra Wormholes | Timed Ultra Beast invasion events with a shared boss HP pool; `config/ultra_wormholes.json`, `/wormhole start\|stop\|status\|reload` (server-side only; optional client visuals) |
 | Cobblemon Raid Dens | Raid dens with raid bosses incl. Mega/Dynamax raids; 0.12 adds Cobblemon 1.8 support (pulls GeckoLib) |
 | CobbleSafari | Safari Zone dimension; 0.3.5 is the Cobblemon 1.8 build |
 | Cobblemon Economy | PokéDollars and shops |
@@ -51,9 +52,6 @@ the `default` group needs nothing unless you want to restrict them.
 - **Habitats**: the only match is `cobblemon-pokopia-habitats` (Pokopia-style
   habitat spawning), a tiny experimental mod from August 2026 with no
   Cobblemon 1.8 statement. Revisit if it matures.
-- **"Incursions"**: no Modrinth mod by that name; `cobblemon-shadowedhearts`
-  (Shadow Pokémon, Colosseum/XD style) is the closest and is still on
-  Cobblemon 1.7 (February 2026).
 
 - **Fusion alternative**: `starlightfusion` adds bespoke fusion models
   (Sylvevoir and friends) rather than configurable recipes; it is
