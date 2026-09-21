@@ -28,14 +28,14 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Cobbreeding | Pokémon breeding through pastures; 2.3.0 is the Cobblemon 1.8 build (pulls Cloth Config) |
 | Cobblemon Capture XP | Team gains XP on capture; 1.8.1 build (pulls Tim Core; server-side only) |
 | Cobblemon: SafePastures | Pastured Pokémon cannot be killed or stolen; 1.8 build (server-side only) |
-| Cobblemon Spawn Notification | Chat announcements for legendary/shiny/rare spawns; 1.8.1 build (server-side only) |
+| Cobblemon Spawn Notification | Chat announcements for legendary/shiny/rare spawns; 1.8.1 build. Installed on clients too, purely so the message translations resolve (otherwise chat shows raw keys). `datapacks/spawn-notification-quiet` overrides its despawn broadcast so "it left" lines are not sent |
 | Hidden Ability Spawns | Configurable chance of wild hidden abilities; 1.8 build (server-side only) |
 | Cobblemon PokeNav | PokéNav device for tracking spawns and party info |
 | Waystones | Teleport network via waystone blocks (pulls Balm) |
 | Repurposed Structures | More vanilla-structure variants (pulls MidnightLib; server-side only) |
 | MobsBeGone | Blocks vanilla mob spawns; blocklist in `config/mobsbegone-blacklist.json` (copied from Cobbleverse: all hostile mobs and vanilla animals, villagers kept) (server-side only) |
 | AllTheMons x Mega Showdown (addon) | Community merge of "missing Pokémon" addons, v4.0 built for Cobblemon 1.8 and Mega Showdown. A combined data+resource pack in `addons/`; Global Packs loads it on the server and auto-enables it on clients |
-| Global Packs | Loads the bundled `datapacks/` and `addons/` on every world and client; `datapacks/no-hunger` keeps the hunger bar full and `datapacks/keep-inventory` sets `keepInventory` and `playersSleepingPercentage 1` (one sleeper skips the night) on world load (server-side only) |
+| Global Packs | Loads the bundled `datapacks/` and `addons/` on every world and client; `datapacks/no-hunger` keeps the hunger bar full and `datapacks/spawn-notification-quiet` silences despawn notices, `datapacks/keep-inventory` sets `keepInventory` and `playersSleepingPercentage 1` (one sleeper skips the night) on world load (server-side only) |
 | Pokeblocks | Placeable Pokémon dolls/plushies (pulls GeckoLib) |
 | CobbleFurnies | Cobblemon-themed furniture: Poké Ball chairs, PC-style desks and more (pulls Resourceful Lib) |
 | Handcrafted | General furniture: tables, chairs, benches, shelves, kitchen blocks |

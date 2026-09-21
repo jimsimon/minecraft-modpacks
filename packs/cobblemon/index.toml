@@ -90,6 +90,14 @@ file = "datapacks/no-hunger/pack.mcmeta"
 hash = "a221daec525012a2aa289bafa8f4ac233677cf8a1ec219dc4a3cd8a2bef0b8be"
 
 [[files]]
+file = "datapacks/spawn-notification-quiet/data/spawn_notification/notification/broadcast/chat/despawned.json"
+hash = "f3b947df4550a3339f76ebe07bf7b4dcffcef6032c1baa1bd998a5b2b2faea80"
+
+[[files]]
+file = "datapacks/spawn-notification-quiet/pack.mcmeta"
+hash = "baa5e9bfd10c34a00c5fc7883a861907ee4600831c9987c1499fc30d6953634f"
+
+[[files]]
 file = "defaultconfigs/rctmod-server.toml"
 hash = "bcdb62c04038e7df0316ec984018c28d6c1ae1f9b069d716e7d9e4eb14a7ed9e"
 
@@ -220,7 +228,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
-hash = "21f026f3d72266c82590cce8494fba601bc06e72bfa81baea108a5d30194e210"
+hash = "2f0ad24b30bf511025f8adfe3e3db5b95823e7a35239e43c62090af5cda04f2c"
 metafile = true
 
 [[files]]
