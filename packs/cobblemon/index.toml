@@ -1,0 +1,46 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/cobblemon-economy.pw.toml"
+hash = "0ac2a913f8e82afeee6ec1c157474369557fa0142c37e6a9dd0ff27fa0d5e6f2"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-gts.pw.toml"
+hash = "df7552121292cdc1d42f8234923774a55816e5fbff57f76d1570e0d71985d08b"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon.pw.toml"
+hash = "4ee82c782d240cf3bce3c939203ddc4f331e80c1f8e499208370f53bbc9ba6f3"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "9645e76b2915aa43b0918e1ef20e1c01b64ba9073e35c8bcd70cf34af8ab604e"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
+metafile = true
+
+[[files]]
+file = "mods/flan.pw.toml"
+hash = "9092856a9528bb2538cc6db095b2ec9e0e8cea44d70203bc9ae1eb502b82910f"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "e10e639f71700a67d7f9b9d747e1685f838d703dadd432464b54e31b26f4742b"
+metafile = true
+
+[[files]]
+file = "mods/rad-gyms.pw.toml"
+hash = "aad89cd7c8293622f6e58c83a080d004a064f45ccdb84c8e93bd235b0ff5b534"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "f2b1e5e03c75404e88144da6bc7552ecd85a198ff40b5da89f8253578d09e6b6"
+metafile = true

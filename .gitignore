@@ -1,0 +1,3 @@
+# Build output from scripts/export.sh
+dist/
+*.mrpack

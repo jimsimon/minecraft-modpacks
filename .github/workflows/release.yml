@@ -1,0 +1,54 @@
+name: Release modpack
+
+# Push a tag named <pack>-v<version>, e.g. cobblemon-v1.0.0, where <pack> is a
+# directory under packs/ and <version> matches that pack's pack.toml. The job
+# exports the .mrpack and publishes it as a GitHub Release asset at
+#   https://github.com/<owner>/<repo>/releases/download/<pack>-v<version>/<pack>-<version>.mrpack
+
+on:
+  push:
+    tags: ['*-v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Parse tag
+        id: tag
+        run: |
+          set -euo pipefail
+          tag="$GITHUB_REF_NAME"
+          if [[ ! "$tag" =~ ^([a-z0-9][a-z0-9-]*)-v([0-9][A-Za-z0-9.+-]*)$ ]]; then
+            echo "::error::tag '$tag' must look like <pack>-v<version>"
+            exit 1
+          fi
+          echo "pack=${BASH_REMATCH[1]}" >> "$GITHUB_OUTPUT"
+          echo "version=${BASH_REMATCH[2]}" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.23'
+          cache: false
+
+      - name: Install packwiz
+        run: scripts/install-packwiz.sh
+
+      - name: Export pack
+        run: scripts/export.sh "${{ steps.tag.outputs.pack }}" "${{ steps.tag.outputs.version }}"
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PACK: ${{ steps.tag.outputs.pack }}
+          VERSION: ${{ steps.tag.outputs.version }}
+        run: |
+          set -euo pipefail
+          gh release create "$GITHUB_REF_NAME" \
+            "dist/$PACK-$VERSION.mrpack" \
+            --title "$PACK $VERSION" \
+            --notes-file "dist/$PACK-$VERSION.notes.md"
