@@ -45,14 +45,6 @@ file = "config/luckperms/luckperms.conf"
 hash = "fffd6dc8c0eb191dee74023d6e575b455d6377097dbd70422f30cbd9c23c382d"
 
 [[files]]
-file = "config/luckperms/yaml-storage/groups/admin.yml"
-hash = "3b70f6f9eae613848557e769ebc0107a2c5a3aaf8d720e48788d8b6283c8d695"
-
-[[files]]
-file = "config/luckperms/yaml-storage/groups/default.yml"
-hash = "312500084e122ee05dcc44945b91f6987ae91c5d4057f7518069499565ddc6fc"
-
-[[files]]
 file = "config/mobsbegone-blacklist.json"
 hash = "10774f46f18b2f0ed79423069651003ed8a627c930796ccee41a5cc9da5fe2f9"
 
@@ -390,6 +382,14 @@ metafile = true
 file = "mods/luckperms.pw.toml"
 hash = "88b5510e39cdc8ca356d54bc436edc777d5eafc03203a8724784183408fe6792"
 metafile = true
+
+[[files]]
+file = "mods/luckperms/yaml-storage/groups/admin.yml"
+hash = "3b70f6f9eae613848557e769ebc0107a2c5a3aaf8d720e48788d8b6283c8d695"
+
+[[files]]
+file = "mods/luckperms/yaml-storage/groups/default.yml"
+hash = "312500084e122ee05dcc44945b91f6987ae91c5d4057f7518069499565ddc6fc"
 
 [[files]]
 file = "mods/melius-essentials.pw.toml"

@@ -153,7 +153,10 @@ and relaunch.
 ## Permissions
 
 LuckPerms runs with YAML storage (`config/luckperms/luckperms.conf`) so the
-groups ship with the pack in `config/luckperms/yaml-storage/groups/`:
+groups ship with the pack. On Fabric, LuckPerms reads its config from
+`config/luckperms/` but keeps *storage* under `mods/luckperms/`, so the group
+files live in `mods/luckperms/yaml-storage/groups/` (pack 1.27.0 put them under
+`config/`, where they were silently ignored):
 
 - `default` (everyone): `/pc`, and Fabric Essentials' `/home`, `/sethome`,
   `/delhome`, `/homes`, `/warp`, `/warps`, `/tpa`, `/tpahere`, `/tpaccept`,
@@ -166,7 +169,7 @@ Make someone an admin from the Crafty console:
 lp user <name> parent set admin
 ```
 
-User assignments are written to `yaml-storage/users/` on the server and are not
+User assignments are written to `mods/luckperms/yaml-storage/users/` on the server and are not
 part of the pack. The group files are pack-managed, so edits made with `lp group
 default …` are reverted on the next pack update; change them in the repo.
 
