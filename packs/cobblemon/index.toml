@@ -357,6 +357,11 @@ hash = "10930324bc5d409d8d557b003a1b7eaf1af00dc336db8f7aea877335f0748aa1"
 metafile = true
 
 [[files]]
+file = "mods/impactor.pw.toml"
+hash = "c596ea90d30e90902ae992b2deea73bf87e0d3707e77fa15f8182fab335effe4"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "6ee94689dd67f0210e07feafac8140e8968bcbcd67defcfbdcd677cf78943900"
 metafile = true

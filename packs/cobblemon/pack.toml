@@ -1,12 +1,12 @@
 name = "Cobblemon"
 author = "Jim Simon"
-version = "1.30.0"
+version = "1.31.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2d0b0ac4aad20a163bf0575e352df0ad2af8c7633b94627d8ad6d94801e4c596"
+hash = "459f5cf493580657558d513c7afcafe9438ad47d8cde36572d94433d25ac9fcd"
 
 [versions]
 fabric = "0.19.5"
