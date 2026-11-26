@@ -26,6 +26,10 @@ hash = "3e0f2e43b5092fb8451a08a61588673c240a50c9186b2b40cd78ee32a23e6187"
 metafile = true
 
 [[files]]
+file = "config/cobblemon/main.json"
+hash = "0e7b0b7634ee2e3cc4efedef96dbd1329c65c4dd7e2cc8d66ec7fa0cc3af19c7"
+
+[[files]]
 file = "config/controlify/server.json"
 hash = "33ebff5c8e81406aa5c63349ddac97175580d043ad2f2e852c3c413fec6e72ac"
 
