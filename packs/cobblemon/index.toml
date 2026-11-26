@@ -42,6 +42,10 @@ file = "config/defaultoptions/keybindings.txt"
 hash = "845b87a1119ec110c70f93af1725362ab3434d7d1fc3e08841ac2a6e9149960b"
 
 [[files]]
+file = "config/defaultoptions/options.txt"
+hash = "41865376e4773c3ccd18625194aa0d8e9e44055346be468e5385294d44031089"
+
+[[files]]
 file = "config/global_packs.toml"
 hash = "c2c8250db5aa6a492dc6297b1afa6c844511b96284484226cffbe4889ad92a86"
 
