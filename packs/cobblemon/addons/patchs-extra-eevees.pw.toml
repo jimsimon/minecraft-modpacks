@@ -1,0 +1,13 @@
+name = "Patch's Extra Eevees"
+filename = "patchs_extra_eevees_v4_1_noEVO.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JTEcwasb/versions/7UzJ64nr/patchs_extra_eevees_v4_1_noEVO.zip"
+hash-format = "sha512"
+hash = "8f89fd91c7b0e07538d37e34b7e6e46df6b61e72cbe8582002e2fee7d836aaf9979f5828582738bea8815dddc843c7c280320ed3eb0629f254a5db148abe15a5"
+
+[update]
+[update.modrinth]
+mod-id = "JTEcwasb"
+version = "7UzJ64nr"

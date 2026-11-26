@@ -21,6 +21,11 @@ hash = "12dd7db62356a0b9cf97a7d6303005439bc571de723e7f605ed82b1ca3b44a43"
 metafile = true
 
 [[files]]
+file = "addons/patchs-extra-eevees.pw.toml"
+hash = "3e0f2e43b5092fb8451a08a61588673c240a50c9186b2b40cd78ee32a23e6187"
+metafile = true
+
+[[files]]
 file = "config/controlify/server.json"
 hash = "33ebff5c8e81406aa5c63349ddac97175580d043ad2f2e852c3c413fec6e72ac"
 
