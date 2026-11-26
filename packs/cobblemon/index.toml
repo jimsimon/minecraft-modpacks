@@ -369,6 +369,11 @@ hash = "1d1a9561a82827bfb42f36a4746ca35af6c13de81c4d2f429604af5eb5199527"
 metafile = true
 
 [[files]]
+file = "mods/lasers-fakemon-pack.pw.toml"
+hash = "5272dfc9a54700f49888e8c003e4edd0151f917fd8c13be0272cf759a6ccacce"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "e10e639f71700a67d7f9b9d747e1685f838d703dadd432464b54e31b26f4742b"
 metafile = true
