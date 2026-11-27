@@ -39,7 +39,7 @@ hash = "2cdc1d6c2ee8dcd572f3556bc2967fd3a81662d6c0ab3cc8d65f7f42e2c7e77a"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "845b87a1119ec110c70f93af1725362ab3434d7d1fc3e08841ac2a6e9149960b"
+hash = "bf6effd3892115c0ef0285bbbc7905357feb0124b7d3b43b6d9e5149badedab6"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -294,11 +294,6 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "bfc939958a6d23a40f8c706cc1b895c6be3de1972dfd958a3b40406d0b34fef7"
-metafile = true
-
-[[files]]
-file = "mods/emotecraft.pw.toml"
-hash = "135837201d4c30811971e630e957867397b995e6803ff75754d510bf1b4fe8fc"
 metafile = true
 
 [[files]]

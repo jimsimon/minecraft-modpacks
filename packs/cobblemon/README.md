@@ -63,7 +63,6 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | spark | Profiler: `/spark tps`, `/spark profiler` (server-side only) |
 | Chunky | Chunk pre-generation, e.g. `/chunky radius 2000` then `/chunky start` (server-side only) |
 | Ping Wheel | Hold the ping key and click to drop a marker everyone sees |
-| Emotecraft | Emote wheel; server side relays emotes between players |
 | Better Third Person | Free-look third-person camera (client-side only) |
 | Mod Menu | In-game mod list with config screens (client-side only; pulls Text Placeholder API) |
 | Jade + Cobblemon Integrations | Hover info for blocks and entities; Integrations adds Pokémon name/level, apricorn growth, healer charge, berry bushes, and a Pokémon teleport-to-Waystone option (1.8 build) |
@@ -75,6 +74,12 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Distant Horizons | Level-of-detail terrain far beyond render distance. Installed on the server too, so it generates and streams LODs and clients only render; toggle on the client via its settings. Server data lives in `world/data/DistantHorizons.sqlite`. Tune with `/dh config` (generation rate limit, max request distance, real-time updates); `/dh pregen` pre-builds LODs, but not while Chunky is running |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
+
+Emotecraft is intentionally omitted while the pack uses MidnightControls
+1.10.0.1. MidnightControls' bundled Emotecraft integration references
+`io.github.kosmx.emotes.arch.gui.EmoteMenuImpl`, a class absent from every
+Emotecraft build published for Minecraft 1.21.1, and crashes the client during
+startup when both mods are installed.
 
 Requires Java 21 (Cobblemon refuses 25).
 
@@ -125,8 +130,8 @@ but the cap no longer applies to anyone.
 
 ## Default keybinds
 
-Several mods ship the same default keys (B was Emotecraft, Traveler's Backpack,
-Tom's Storage and Xaero's new-waypoint at once). `config/defaultoptions/keybindings.txt`
+Several mods ship the same default keys (B was Traveler's Backpack, Tom's
+Storage and Xaero's new-waypoint at once). `config/defaultoptions/keybindings.txt`
 resolves the clashes; Default Options applies it as the *default*, so players can
 still rebind. Cobblemon's debug portrait keys are unbound.
 
