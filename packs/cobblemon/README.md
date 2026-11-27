@@ -54,7 +54,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Xaero's World Map | Full-screen explored-world map, shares waypoints with the minimap (client-side only) |
 | E19 Cobblemon Minimap Icons, 1.8-compat build (resource pack) | Pokémon head icons on Xaero's minimap/world map instead of generic dots. Lives in `addons-client/`, which Global Packs force-enables on clients (client-side only). Shipped as our own derived build (release tag `assets-e19-1.4.4-r1`) because E19 1.4.4 bundles Cobblemon resolvers with pre-1.8 poser/model names, which made ~40 species render as the substitute doll; `scripts/build-e19-compat.py` strips those 47 files. `addons-client/e19_cobblemon_minimap_icons.source.toml` pins the upstream file the script starts from. Drop the derived build once E19 ships a Cobblemon 1.8 release |
 | Default Options | Ships default keybinds (`config/defaultoptions/keybindings.txt`) and first-run configs (`config/defaultoptions/extra/`) without overwriting player changes on updates (client-side only) |
-| MidnightControls | Controller and native touchscreen support for the Steam Deck (client-side only). The pack starts in controller mode with touch input enabled alongside it; version 1.10.0.1 includes its touchscreen-camera fix |
+| Controlify | Controller / Steam Deck support with in-game button prompts and a virtual cursor for menus (pulls YACL). Also installed server-side so clients get analogue stick movement without a whitelist prompt and Bedrock-style reach-around placement; policies in `config/controlify/server.json` |
 | Sodium, ImmediatelyFast, Entity Culling, ModernFix, Dynamic FPS | Client performance; the set the Steam Deck needs (client-side only) |
 | FerriteCore | Lower memory use for block states (both sides) |
 | Iris + Complementary Reimagined / Unbound | Shader support with both Complementary variants in `shaderpacks/`; off until a player picks one under Video Settings → Shader Packs, K toggles (client-side only) |
@@ -63,6 +63,7 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | spark | Profiler: `/spark tps`, `/spark profiler` (server-side only) |
 | Chunky | Chunk pre-generation, e.g. `/chunky radius 2000` then `/chunky start` (server-side only) |
 | Ping Wheel | Hold the ping key and click to drop a marker everyone sees |
+| Emotecraft | Emote wheel; server side relays emotes between players |
 | Better Third Person | Free-look third-person camera (client-side only) |
 | Mod Menu | In-game mod list with config screens (client-side only; pulls Text Placeholder API) |
 | Jade + Cobblemon Integrations | Hover info for blocks and entities; Integrations adds Pokémon name/level, apricorn growth, healer charge, berry bushes, and a Pokémon teleport-to-Waystone option (1.8 build) |
@@ -74,12 +75,6 @@ Cobblemon Delta client pack, which does not ship any of its server features.
 | Distant Horizons | Level-of-detail terrain far beyond render distance. Installed on the server too, so it generates and streams LODs and clients only render; toggle on the client via its settings. Server data lives in `world/data/DistantHorizons.sqlite`. Tune with `/dh config` (generation rate limit, max request distance, real-time updates); `/dh pregen` pre-builds LODs, but not while Chunky is running |
 | Lithium | Server performance |
 | Fabric API, Fabric Language Kotlin | Libraries |
-
-Emotecraft is intentionally omitted while the pack uses MidnightControls
-1.10.0.1. MidnightControls' bundled Emotecraft integration references
-`io.github.kosmx.emotes.arch.gui.EmoteMenuImpl`, a class absent from every
-Emotecraft build published for Minecraft 1.21.1, and crashes the client during
-startup when both mods are installed.
 
 Requires Java 21 (Cobblemon refuses 25).
 
@@ -130,8 +125,8 @@ but the cap no longer applies to anyone.
 
 ## Default keybinds
 
-Several mods ship the same default keys (B was Traveler's Backpack, Tom's
-Storage and Xaero's new-waypoint at once). `config/defaultoptions/keybindings.txt`
+Several mods ship the same default keys (B was Emotecraft, Traveler's Backpack,
+Tom's Storage and Xaero's new-waypoint at once). `config/defaultoptions/keybindings.txt`
 resolves the clashes; Default Options applies it as the *default*, so players can
 still rebind. Cobblemon's debug portrait keys are unbound.
 

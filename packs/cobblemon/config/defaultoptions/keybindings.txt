@@ -24,6 +24,8 @@ key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_key.cobblemon_smartphone.open:key.keyboard.p
 key_key.cobblemon_smartphone.scanner:key.keyboard.semicolon
 key_key.ok_zoomer.zoom:key.keyboard.c
+key_key.emotecraft.fastchoose:key.keyboard.x
+key_key.emotecraft.debug:key.keyboard.unknown
 key_key.travelersbackpack.inventory:key.keyboard.b
 key_key.travelersbackpack.cycle_tool:key.keyboard.unknown
 key_key.toms_storage.open_terminal:key.keyboard.y
